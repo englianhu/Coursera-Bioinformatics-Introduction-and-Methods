@@ -10,7 +10,7 @@
 ## Content
 
 <p><p>
-1) **Week 1 : Introduction and History of Bioinformatics**
+**1) Week 1 : Introduction and History of Bioinformatics**
     
     a) What is Bioinformatics
         
@@ -35,7 +35,7 @@
         - 學習用教材 : Slides
         
 <p><p>
-2) **Week 2 : Sequence Alignment**
+**2) Week 2 : Sequence Alignment**
     
     a) Sequence Alignment, Part I
         
@@ -63,7 +63,7 @@
         - テスト : Sequence Alignment
         
 <p><p>
-3) **Week 3 : Sequence Database Search**
+**3) Week 3 : Sequence Database Search**
     
     a) Sequence Database Search
         
@@ -84,7 +84,7 @@
         - 学習用教材 : Slides
         
 <p><p>
-4) **Week 4 : Markov Model**
+**4) Week 4 : Markov Model**
     
     a) Markov Model
         
@@ -106,7 +106,7 @@
         - 学習用教材 : Slides
 
 <p><p>
-5) **Week 5 : Next Generation Sequencing (NGS): Mapping of Reads From Resequencing and Calling of Genetic Variants**
+**5) Week 5 : Next Generation Sequencing (NGS): Mapping of Reads From Resequencing and Calling of Genetic Variants**
     
     a) Next Generation Sequencing (NGS)
     
@@ -135,7 +135,7 @@
         - 学習用教材 : Slides
         
 <p><p>
-6) **Week 6 : Functional Prediction of Genetic Variants**
+**6) Week 6 : Functional Prediction of Genetic Variants**
     
     a) Variant Databases
         
@@ -165,10 +165,10 @@
         - 学習用教材 : Slides
 
 <p><p>
-7) **Week 7 : Mid-term Exam**
+**7) Week 7 : Mid-term Exam**
     
 <p><p>
-8) **Week 8 : Next Generation Sequencing : Transcriptome Analysis, and RNA-Seq**
+**8) Week 8 : Next Generation Sequencing : Transcriptome Analysis, and RNA-Seq**
     
     a) Next Generation Sequencing : Transcriptome Analysis, and RNA-Seq
         
@@ -185,7 +185,7 @@
         - 動画 : 講座Student presentation (English Subtitles)
         
 <p><p>
-9) **Week 9 : Prediction and Analysis of Noncoding RNA**
+**9) Week 9 : Prediction and Analysis of Noncoding RNA**
     
     a) Prediction and Analysis of Noncoding RNA
         
@@ -212,7 +212,7 @@
         - 学習用教材 : Slides
 
 <p><p>
-10) **Week 10 : Ontology and Identification of Molecular Pathways**
+**10) Week 10 : Ontology and Identification of Molecular Pathways**
     
     a) Ontology, Gene Ontology and KEGG Pathway Database
         
@@ -244,7 +244,7 @@
         - 学習用教材 : Slides
         
 <p><p>
-11) **Week 11 : Bioinformatics Database and Software Resources**
+**11) Week 11 : Bioinformatics Database and Software Resources**
     
     a) Overview and NCBI
         
@@ -270,7 +270,7 @@
         - 学習用教材: Slides
     
 <p><p>
-12) **Week 12 : Origination of New Genes**
+**12) Week 12 : Origination of New Genes**
     
     a) Origination of New Genes Part I
         
@@ -296,7 +296,7 @@
         - 学習用教材 : Slides
 
 <p><p>
-13) **Week 13 : Evolution Function Analysis of DNA Methyltransferase**
+**13) Week 13 : Evolution Function Analysis of DNA Methyltransferase**
     
     a) Evolution Function Analysis of DNA Methyltransferase
         
@@ -317,7 +317,7 @@
         - 学習用教材 : Slides
 
 <p><p>
-14) **Week 14 : Final Exam**
+**14) Week 14 : Final Exam**
 
 ---
 
