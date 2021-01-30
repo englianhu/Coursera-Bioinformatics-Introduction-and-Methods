@@ -7,6 +7,8 @@
 
 <img src='figure/Peking University 01.jpeg' width='300'>
 
+<audio src="2019年北京欢迎你 chorus (DJ舞曲).mp3" controls></audio>
+
 ## Content
 
 <p><p>
