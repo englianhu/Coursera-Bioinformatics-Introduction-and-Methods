@@ -1,0 +1,87 @@
+Markov Model
+合計点数 7
+
+質問 1
+In first-order Markov Models, the probability distribution of the current state depends and only depends on ______.
+在一阶马尔科夫链中，当前状态的概率分布与且只与______有关.
+
+- all previous states 前面所有状态
+- its own state 自己的状态
+- the immediate previous state 前一个状态   vvvvvv
+- the immediate next state 后一个状态
+
+
+質問 2
+Use the Markov Model to perform two sequences alignment, giving the following state transition graph (M means two residues align together, X means there is a insertion in the first sequence, Y means there is a insertion in the second sequence)
+利用马尔可夫模型进行双序列比对，给定如下状态转移图（M表示两个残基匹配，X表示第一条序列存在一个插入，Y表示第二条序列存在一个插入）
+
+If the gap open probability is 0.1 and gap extension probalibity is 0.7
+已知gap open的概率为0.1，gap extension的概率为0.7
+What's the transition probability of the blue edge in the above graph?
+则上面状态转移图中蓝色边上的状态转移概率值为______
+
+- 0.1
+- 0.2
+- 0.3   vvvvvv
+- 0.8
+
+
+質問 3
+In question 2, what's the transition probability of the green edge in the graph?
+在第2题的状态转移图中，绿色边上的状态转移概率值为______
+
+- 0.2
+- 0.3
+- 0.7
+- 0.8   vvvvvv
+
+
+質問 4
+Given the following state transition graph and emission probabilities for each state
+给定如下状态转移关系和每个状态下的生成概率
+
+What's the probability of observing "aabbc" through state transition path 1-2-2-3-3?
+
+则通过状态转移路径1-2-2-3-3观测到序列aabbc的概率是多少？
+
+- 0.00072
+- 0.004068
+- 0.000144   vvvvvv
+- 0.00336
+
+
+質問 5
+In the following simple Hidden Markov Model of coding and noncoding region prediction, the left matrix is the log10 result of transition probability matrix and the right matrix is the log10 result of emission probability matrix(In the state transition probability matrix, the value in row i column j is the log10 probability from state i transfer to state j)
+
+对于下面这个简单的预测编码区非编码区的隐马尔可夫模型，其中两个矩阵分别为状态转移概率矩阵和生成概率矩阵取log10后的结果（在状态转移概率矩阵中，第i行第j列表示从状态i转移到状态j的概率取log10后的结果）
+
+For the above model, using dynamic programming, predict coding region(c) and noncoding region(n) of sequence "CGAAAA" (the log10 initial probability of noncoding is -0.1 and log10 initial probability of coding is -0.7 )
+
+应用上述模型，采用动态规划的方法，对序列CGAAAA进行编码区(c)和非编码区(n)预测 （初始状态为非编码区的概率取log10后设为-0.1，初始状态为编码区的概率取log10后设为-0.7）：
+
+
+Q: What's the value in the green block?
+Q: 则绿色格子的值为多少？
+
+- -2.0   vvvvvv
+- -1.5
+- -1.3
+- -2.1
+
+
+質問 6
+In question 5, what's the value in the blue block?
+在第5题中，蓝色格子的值为多少？
+
+- -2.0
+- -1.5   xxxxxx
+- -0.7   xxxxxx
+- -2.1   xxxxxx
+
+
+質問 7
+In question 5, the end of this sequence (A) is identified as coding or noncoding?
+在第5题中，序列的尾部（A）被鉴定成编码还是非编码？
+
+- coding   vvvvvv
+- noncoding

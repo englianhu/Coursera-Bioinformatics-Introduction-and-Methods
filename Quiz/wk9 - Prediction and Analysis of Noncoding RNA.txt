@@ -1,0 +1,85 @@
+Prediction and Analysis of Noncoding RNA
+合計点数 7
+
+質問 1
+Which of the following statements is wrong with respect to non-coding RNAs?
+下面关于非编码RNA的说法中，错误的是
+
+- Non-coding RNAs can regulate gene expression 非编码RNA能够调控基因表达   3xxxxxx
+- Non-coding RNAs can longer than some coding RNAs 非编码RNA可以比某些编码RNA更长  2xxxxxx    5xxxxxx   6xxxxxx
+- There are a lot of non-coding RNAs in the cell 在细胞中存在大量的非编码RNA   1xxxxxx   2xxxxxx
+- Non-coding RNAs can't have any ORF (open reading frame) 非编码RNA中一定不存在ORF(open reading frame)   1xxxxxx   4xxxxxx
+- Non-coding RNAs play a role in protein translation 非编码RNA参与蛋白的翻译   1xxxxxx   4xxxxxx   6xxxxxx
+- Non-coding RNAs must shorter than coding RNAs 非编码RNA一定比编码RNA更短   3xxxxxx
+- Non-coding RNAs do not have any functions 非编码RNA没有功能   2xxxxxx   5xxxxxx   6xxxxxx
+
+
+質問 2
+Which of the following statements is correct with respect to long non-coding RNAs?
+下面关于长非编码RNA（lncRNA）的说法，正确的是
+
+- Variants on lncRNAs might lead to human disease lncRNA上的变异可能导致人类疾病   vvvvvv
+- All lncRNAs do not have polyA tails lncRNA都没有polyA尾巴
+- There are no exons and reading frames on lncRNAs. lncRNA上没有外显子和读码框
+- The lncRNAs are byproducts of transcription and do not have any functions lncRNA是转录的副产物，没有功能
+
+
+質問 3
+Which of the following statements is wrong with respect to the identification of non-coding RNAs?
+关于非编码RNA的鉴定，下面说法错误的是
+
+- We can use information of sequence conservation to identify non-coding RNAs 可以利用序列碱基保守性信息鉴定非编码RNA   2xxxxxx    5xxxxxx   6xxxxxx
+- It is impossible to identify non-coding RNAs using only those features that come from the sequence itself 仅利用序列本身的特性无法实现非编码RNA的鉴定   1xxxxxx    5xxxxxx   6xxxxxx
+- The accuracy of identification can be increased by choosing appropriate combination of features 选择合适的特征组合可以提高鉴定的准确率   1xxxxxx   3xxxxxx
+- Now we can identify all the non-coding RNAs using calculation method accurately 我们现在可以利用计算的方法来准确的鉴定所有的非编码RNAs   1xxxxxx   6xxxxxx
+- We can use the length of ORF to identify non-coding RNAs 可以利用开放读码框的长度来鉴定非编码RNAs   2xxxxxx   4xxxxxx    5xxxxxx   6xxxxxx
+- We can use the feature of RNA secondary structure to identify microRNAs microRNA的鉴定可以利用RNA的二级结构特征   3xxxxxx   4xxxxxx
+
+
+質問 4
+Which of the following statements is wrong with respect to functional prediction?
+关于功能预测，下面说法错误的是
+
+- Genes with similar sequences might have identical functions 序列相似的基因可能具有相同的功能   xxxxxx
+- Genes with similar expression levels have related functions 表达量相似的基因具有相关的功能   xxxxxx
+- Genes that are differentially expressed are very likely to be functionally related 差异表达的基因很有可能在功能上具有相关性   xxxxxx
+- Co-expressed genes might have related functions 共表达的基因可能具有相关的功能   xxxxxx
+
+
+質問 5
+Assume that the probability that we make an error in each trial is 0.2. What is the probability that we make an error in at least one of all three trials?
+已知一次试验中出错的概率是0.2，则在3次试验中至少有一次出错的概率是多少？
+
+- 0.488   vvvvvv
+- 0.512
+- 0.008
+- 0.8
+- 0.2
+- 0.992
+
+
+質問 6
+Assume that we got in an experiment the sequence below
+已知一次实验得到如下序列
+
+>21A
+AAATAGTTGACCAAGTGTGGTGGCTCACGTAGTCCCAGCACTTTGGGAGGCTGAGGCAGGAGGATCACTTGAGCCCAGGAATTTGAGACCAGCTTGGGCAACATAGTGAGACCTCATCTCTTAAAAAAAAAAATTAGCTGGGTGTGGTAGTGCACACCTGTGGTCCCAGCTACTTTAGAGGCTGAGGTAGAGGATTGCTTGAGCCTGGGAAGTTGGGGCTGTAGTGAGCTTTGATTGCATCACTGCACTCCAGCCTGGGTGACAGAGCAAGACCCTGTCTCTAAAAAATTAAATAAATAATAAAAAAATTAAAAAGTAACTCCC
+
+Use CPC （http://cpc.cbi.pku.edu.cn/）to predict whether the RNA coded by this sequence is protein-coding RNA or non-coding RNA
+利用CPC （http://cpc.cbi.pku.edu.cn/）预测该序列编码的RNA是编码蛋白的RNA还是非编码RNA
+What is the result of CPC for this sequence?
+则CPC给出该序列是
+
+- coding RNA
+- noncoding RNA   vvvvvv
+
+
+質問 7
+The CODING POTENTIAL SCORE calculated by CPC is 
+利用CPC计算的CODING POTENTIAL SCORE 是多少
+
+- 0.395552
+- -3.548
+- -0.395552   vvvvvv
+- 0.11524
+

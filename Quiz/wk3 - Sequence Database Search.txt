@@ -1,0 +1,90 @@
+Sequence Database Search
+合計点数 5
+
+
+質問 1
+关于BLAST结果中E-value的说法，以下不正确的是
+Which one of the following options is not correct with respect to the BLAST's E-value?
+
+- 它表示了相应hit的可信度 It denotes how much we could trust its corresponding "hit" sequence
+- 它和一开始输入的查询序列的长度以及数据库总序列长度都有关 It depends on the length of the query sequence AND the size of the database   xxxxxx
+- 它的值在接近1时，是几乎和相应的p-value一样的 When it is near 1, it is nearly identical to its corresponding p-value.   vvvvvv
+- 它可以大于1 It could be larger than 1
+- 当它确定的时候，相应的p-value也是确定的 When it is fixed, the corresponding p-value for this E-value will be fixed as well.
+
+
+質問 2
+下列选项中，哪些项不能帮助BLAST降低假阳性？
+Which of the following options cannot reduce the false positives of BLAST?
+
+- 屏蔽重复性的低复杂度区域 Masking the low-complexity regions   1xxxxxx
+- 使用较短的seed word Use shorter seed words   1xxxxxx
+- 选择邻居单字时，只选择高度相似的邻居单字 Choosing only those neighborhood words that are highly similar to the current seed word   1xxxxxx
+- 使用E-value来评估比对的统计显著性 Use E-value to evaluate the statistical significance of alignments
+- 提前给数据库建索引 Build an index for the database ahead of time
+- 从最初始找到的hit里面去掉一些零散的hit，只保留hit cluster Discard isolated hits and keep only those hits that can form hit clusters
+- 不计算p－value，只计算E-value Do not compute the p-value; computer the E-value only
+- 不仅使用来自查询序列的种子单字，还使用它们的邻居单字 Use not only seed words from the query sequence, but also their neighborhood words
+
+
+質問 2
+下列选项中，哪个项不能帮助BLAST降低假阳性？
+Which of the following options cannot reduce the false positives of BLAST?
+
+- 不仅使用来自查询序列的种子单字，还使用它们的邻居单字 Use not only seed words from the query sequence, but also their neighborhood words   vvvvvv
+- 屏蔽重复性的低复杂度区域 Masking the low-complexity regions
+- 使用E-value来评估比对的统计显著性 Use E-value to evaluate the statistical significance of alignments
+- 从最初始找到的hit里面去掉一些零散的hit，只保留hit cluster Discard isolated hits and keep only those hits that can form hit clusters
+
+
+質問 3
+下列选项中，哪一项不能帮助BLAST提升计算速度？（注意不一定非得是和以前的双序列比对算法相比有显著提升）
+Which one of the following options cannot improve the speed of BLAST? Note that the improvement need not to be significant compared to previous pairwise sequence alignment algorithms.
+
+- 选择邻居单字时，只选择高度相似的邻居单字 Choosing only those neighborhood words that are highly similar to the current seed word
+- 提前给数据库建索引 Build an index for the database ahead of time
+- 使用较短的seed word Use shorter seed words      vvvvvv
+- 不计算p－value，只计算E-value Do not compute the p-value; computer the E-value only
+- 从最初始找到的hit里面去掉一些零散的hit，只保留hit cluster Discard isolated hits and keep only those hits that can form hit clusters
+- 对数据库预先屏蔽重复性的低复杂度区域 Masking the low-complexity regions of a database before using it in BLAST
+
+
+質問 4
+Given the following protein sequence, please run BLAST, to find similar protein sequences:
+
+>Protein Sequence
+MVRAPCCEKMGLKKGPWTPEEDQILISYIQSNGHGNWRALPKLAGLLRCGKSCRLRWTNYLRPDIKRGNFTREEEDSIIQ
+LHEMLGNRWSAIAARLPGRTDNEIKNVWHTHLKKRLKNYQPPQSSKRHSKNKDSKAPCTSQIALKSSNNFSNIKEDGPGL
+GSGPNSPQLSSSEMSTVTADSLAVTMDISNSNDQIDSSENFIPEIDESFWTDGLSTSGGGEELQVQFPFHDMKQENVEKD
+VGAKLEDDMDFWYSVFIKSGDLLELPEF
+
+现有如下一条蛋白序列，请通过BLAST，对其进行分析，寻找与其相似的蛋白序列：
+BLAST：http://blast.ncbi.nlm.nih.gov
+Parameters 参数设置：
+
+Database: Non-redundant protein sequences (nr)
+Algorithm: blastp
+Word size: 3
+Matrix: BLOSUM62
+Gap Costs: Existence: 11 Extension: 1
+Other parameters leave as default. 其他参数默认.
+
+Q:  Which program listed in BLAST homepage should you use to do the analysis?
+Q:  为了完成上述分析，应选择BLAST主页上的哪个程序?
+
+- nucleotide blast
+- protein blast   vvvvvv
+- blastx
+- tblastn
+- tblastx
+
+
+質問 5
+In BLAST result of question 4，which species has the highest similarity score?
+在第4题的BLAST结果中，所获得的相似度最高的序列来自于哪个物种?
+
+- Capsicum annuum 辣椒
+- Datura metel 洋金花
+- Petunia x hybrida 矮牵牛
+- Solanum lycopersicum 番茄   vvvvvv
+

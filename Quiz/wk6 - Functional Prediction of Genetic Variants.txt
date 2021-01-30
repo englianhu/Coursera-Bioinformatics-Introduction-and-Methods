@@ -1,0 +1,74 @@
+Functional Prediction of Genetic Variants
+合計点数 7
+
+質問 1
+Which of the following mutations is NOT single nucleotide variation?
+下面哪一个不属于编码区单核苷酸变异的种类？
+
+- stop gain mutation 终止密码子获得
+- synonymous mutation 同义突变   vvvvvv
+- nonsynonymous mutation 非同义突变
+- frame-shifting mutation 移码突变
+
+
+質問 2
+How many single nucleotide variants are there in the genome of a human individual?
+一个人的基因组中大约有多少单核苷酸变异？
+
+- 3,000,000   vvvvvv
+- 30,000
+- 30,000,000
+- 300,000
+
+
+質問 3
+Which of the following statements is true with respect to pathogenic and neutral mutations?
+关于致病突变和中性突变，下面哪一项是正确的？
+
+- All pathogenic mutations are in conserved regions, and all neutral mutations are in non-conserved regions. 致病突变均位于保守区，中性突变均位于非保守区
+- Both pathogenic and neutral mutations are curated by the dbSNP database. dbSNP数据库中记录的突变既有致病突变也有中性突变   vvvvvv
+- All pathogenic mutations are in the functional sites of proteins, while all neutral mutations are in the non-functional sites are proteins. 致病突变均位于蛋白的功能位点，中性突变均位于蛋白的非功能位点
+- Mutations that exist in patients AND never exist in healthy individuals must be pathogenic. 在病人中出现且在健康人中没有出现的突变一定是致病突变
+
+
+質問 4
+In which one(s) of the following databases should we search for a known pathogenic mutation on a gene?
+为找到一个基因上的已知的致病突变，可以从下面哪个(些)数据库中查找？
+
+- 1000 Genomes dataset   1xxxxxx
+- LSDBs   1xxxxxx
+- HGMD   1xxxxxx   2xxxxxx
+- OMIM   1xxxxxx   2xxxxxx
+
+
+質問 5
+A benchmark test of a prediction method gave the following statistics:
+测试一个预测方法的性能，试验后经过统计得到如下数据：
+
+What are the sensitivity, the specificity, and the accuracy for this prediction method, respectively?
+则该方法的敏感性(sensitivity)、特异性(specificity)、准确率(accuracy)分别是多少？
+
+- 0.67, 0.25, 0.30
+- 0.80, 0.60, 0.70   vvvvvv
+- 0.80, 0.50, 0.90
+- 0.67, 0.50, 0.60
+
+
+質問 6
+What's the FDR we can get from the data of Question 5?
+第五题数据得到的FDR是多少？
+
+- 0.66
+- 0.75
+- 0.33   vvvvvv
+- 0.25
+
+
+質問 7
+Which of the algorithm is not design for predict the functional effects of nonsynonymous mutations
+下面哪一个算法不是用来预测非同义突变对功能的影响
+
+- PolyPhen
+- SIFT
+- SAPRED
+- Bowtie   vvvvvv

@@ -1,0 +1,52 @@
+Origination of New Genes
+合計点数 5
+
+質問 1
+Given the species phylogeny and the existence of genes in the figure, which two of the following inferences are right according to the parsimony principle?
+给定图中的物种系统发生关系和基因在各物种中是否存在，依据最简约原则如下哪两个推断是正确的？
+
+- MNOP is a new gene, which originated after the divergence of Species 5 and the ancestor of Species 1, 2, 3, 4 MNOP是一个在物种5和物种1，2，3，4的祖先分岐后起源的新基因
+- EFGH is an old gene, which has already existed in the ancestor of Species 1, 2, 3, 4, and 5 EFGH是一个在物种1，2，3，4，5的祖先中就已存在的老基因   vvvvvv
+- IJKL originated 4 times independently in Species 2, 3, 4, 5 IJKL在物种2，3，4，5中独立地起源了4次
+- ABCD is a new gene, which originated after the divergence of Species 1 and 2 ABCD是一个在物种1和2分岐后起源的新基因   vvvvvv
+
+
+質問 2
+Given the DNA sequence of an intact ORF, which two of following mutations will cause ORF disruption?
+给定一个完整ORF的DNA序列，如下哪两个突变会导致ORF破坏？
+
+- ATG GGC CTG TCG ACC CTC GA- --G GAG CGA CTG TGA
+- ATG GGC CTG TCG ACC CTC GAG CGG CAG CGA CTG TGA
+- ATG GGC CTG TAG ACC CTC GAG CGG GAG CGA CTG TGA   vvvvvv
+- ATG GGC CTG TCG ACC CTC G--CGG GAG CGA CTG TGA   vvvvvv
+
+
+質問 3
+Which of following computational methods cannot give useful information about a previously unknown de novo gene?
+如下哪个计算方法不能对一个之前未知的从头起源基因提供有用的信息？
+
+- mRNA expression pattern inferred from RNA-Seq data 从RNA-Seq数据得到的mRNA表达特点
+- Homology annotation to genes with known function 基于已知功能基因的同源注释   vvvvvv
+- Protein physicochemical property (such as pI value) prediction 蛋白理化性质（如pI值）预测
+- Protein secondary structure prediction 蛋白二级结构预测
+
+
+質問 4
+Which one of following sequence alignment methods is not used for searching de novo genes?
+如下哪个序列比对方法没有被用来寻找从头起源基因？
+
+- BLAST
+- BWA   vvvvvv
+- Genome alignment
+- Codon-based alignment
+
+
+質問 5
+Which two of  following statements about Pearson correlation coefficient (r) are right?
+如下哪两个关于Pearson相关系数的陈述是正确的？
+
+- r=0.8 means 80% of variability is accounted for by the linear model r=0.8意味着80%的变异可以被线性模型解释
+- r=0.99 always means the data is fitted well with a linear model r=0.99总意味着数据被线性模型很好拟合
+- r is a measure of the linear correlation between two variables r度量两个变量间的线性相关性   vvvvvv
+- r=1 means total positive correlation; r=0 means no linear correlation; and r=-1 means total negative correlation r=1代表完全正相关；r=0代表没有线性相关性；r=-1代表完全负相关   vvvvvv
+

@@ -1,0 +1,52 @@
+Bioinformatics Database and Software Resources
+合計点数 5
+
+質問 1
+Which of the following databases has each of its record describing a cluster of proteins, where in each cluster the proteins are highly similar with respect to their sequences?
+下面哪个数据库记录的是一组组蛋白质，每一组内的各个蛋白质序列高度相似？
+
+- UniParc
+- UniProtKB
+- UniProt
+- UniRef   vvvvvv
+
+
+質問 2
+From which of the following databases can we retrieve information about protein three-dimensional structure?
+蛋白质三维结构方面的具体信息在下面哪个数据库中有？
+
+- Rfam
+- IntAct
+- PDB   vvvvvv
+- BioPerl
+
+
+質問 3
+What information has NCBI-Gene integrated and represented?
+NCBI-Gene整合、呈现了哪些信息？
+
+- Possible functional domains of proteins 蛋白可能的结构域   vvvvvv
+- RefSeq record of gene product mRNA and proteins 基因产物mRNA、蛋白的RefSeq   vvvvvv
+- Gene names and Entrez Gene ID 基因名、Entrez GeneID   vvvvvv
+- Phenotypes and diseases related to a particular gene 基因相关的表型、疾病   vvvvvv
+
+
+質問 4
+Which of the following UCSC Genome Browser items is NOT represented as a track?
+下面哪一项不是UCSC Genome Browser以track形式呈现的信息？
+
+- Conservation and population variants 保守性和群体中存在的变异
+- Protein structure 蛋白结构   vvvvvv
+- DNA methylation, histone modification, transcription factor binding site DNA甲基化，组蛋白修饰，转录因子结合位点
+- Transcript structure 转录本结构
+
+
+質問 5
+Which of the following tools is provided by UCSC Genome Browser?
+下面哪一项是UCSC Genome Browser提供的工具？
+
+- BLAT
+- BLAST   xxxxxx
+- Primer3   xxxxxx
+- MEME Suite   xxxxxx
+

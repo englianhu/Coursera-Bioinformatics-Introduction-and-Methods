@@ -1,0 +1,608 @@
+Mid-term Review
+合計点数 50
+
+質問 1
+Uniprot is mainly a database for
+Uniprot数据库主要存储的数据是什么?
+
+- nucleotide sequence 核酸结构
+- protein sequence 蛋白序列   vvvvvv
+- disease-unrelated variants 疾病无关变异
+- disease-related variants 疾病相关变异
+- nucleotide sequence 核酸序列
+- protein structure 蛋白结构
+
+
+質問 2
+PDB is mainly a database for:
+PDB数据库主要存储的数据是什么?
+
+- disease-unrelated variants 疾病无关变异
+- genetic diseases 遗传疾病
+- DNA structure DNA结构
+- disease-related variants 疾病相关变异
+- protein structure 蛋白结构   vvvvvv
+- RNA structure 核酸结构
+
+
+質問 3
+The idea of molecular evolutional clock was established in：
+分子钟的概念提出于：
+
+- 1990s
+- 1980s
+- 1950s
+- 1960s   vvvvvv
+- 1940s
+- 1970s
+
+
+質問 4
+Protein sequencing technology was established ____ nucleotide sequencing technology:
+蛋白测序技术_核酸测序技术出现：
+
+- at the same time with 同时于
+- later than 晚于
+- earlier than 早于   vvvvvv
+
+
+質問 5
+Which of the algorithms or software is not designed for sequence alignment:
+下面哪一种算法或软件不是为序列比对设计的：
+
+- SIFT   vvvvvv
+- Needleman-Wunsch 
+- Smith-Waterman
+- Blast
+- BWA
+
+
+質問 6
+Why do we often assign negative scores to gaps in sequence alignment?
+为什么空位在比对过程中一般给负分？
+
+- Because negative scores are easier to compute 因为负分计算起来更容易
+- Because gaps are uninformative. 因为空位没有信息含量
+- Because gaps change the length of the sequence. 因为空位改变了序列的长度
+- This assignment is arbitrarily determined without any proper reason. 这是约定俗成的，没有合适的理由
+- Because insertions and deletions often affect the function of the sequence. 因为插入删除通常会对序列功能产生影响   vvvvvv
+- Because gaps surely change the 3D structure of sequences 因为空位一定改变了序列的空间结构
+
+
+質問 7
+Which of the following statements can we DEDUCE from the fact that the substitution matrix in sequence alignment is symmetric with respect to its main diagonal?
+序列比对中的替换矩阵是沿主对角线对称的矩阵，由此我们能够得到下面哪一个结论？
+
+- Changing the direction of substitution does not change the alignment result. 替换方向对比对结果没有影响   vvvvvv
+- The substitution matrix remains stable after being squared 替换矩阵自乘以后保持不变
+- The substitution matrix describes how similar two consecutive bases are. 替换矩阵描述了前后碱基的相似程度
+- The substitution is context-free (i.e. not depending on bases or alignments before or after the substitution). 替换是上下文无关的
+
+
+質問 8
+What's the problem of enumeration for solving pairwise sequence alignment?
+对于双序列比对，枚举这种算法的问题在哪里？
+
+- It can only deal with cases where the two sequences have equal or similar lengths 只能处理两条序列长度相等或相近的情况   xxxxxx
+- It cannot consider gaps 无法考虑有空位的情况   xxxxxx
+- It cannot trace back and give an output 无法回溯并给出比对结果   xxxxxx
+- The time complexity is too high 时间复杂度太高
+- It cannot guarantee to find the optimal solution 不能保证找到最优解
+
+
+質問 8
+Which of the following problems is NOT addressed by the pairwise sequence alignment algorithms introduced in this MOOC?
+课上讲述的双序列比对方法没有试图解决下面哪一个问题？
+
+- Whether two sequences have different functional domains 两条序列中是否存在不同的功能域
+- Find out globally optimal alignment between two sequences 找到两条序列整体上最优的比对   xxxxxx
+- Find out the alignment between the most similar parts of two sequences 找到两条序列之间最相似部分的比对   xxxxxx
+- Whether one sequence is part of another sequence 一条序列是否是另外一条序列的一部分
+- Find out locally optimal alignment between two sequences 找到两条序列局部上最优的比对   xxxxxx
+
+
+質問 9
+Which of the following statement is NOT correct with respect to dynamic programming?
+下面关于动态规划，哪一个说法不对？
+
+- Compared with enumeration, dynamic programming takes less time to compute. 动态规划相比枚举，计算所需要的时间变少
+- In order to be solved by dynamic programming, the problem needs to have the property of optimal substructure. 动态规划能够解决的问题需要具有最优子结构
+- Dynamic programming can find the globally optimal solution. 动态规划可以找到全局最优解
+- Compared with enumeration, dynamic programming needs less space for storage (e.g. memory) of temporary data during calculation. 动态规划相比枚举，计算时需要存储临时数据的空间（如内存）变少   vvvvvv
+
+
+質問 9
+Which of the following statements is NOT true with respect to the modification of Needleman-Wunsch by Smith-Waterman algorithm?
+关于Smith-Waterman算法对Needleman-Wunsch算法所做的修改，下述哪一个说法不对？
+
+- The modification changes the number of optimal solutions from only one to one or more than one. 该修改使得最优解从只能有一个变成了可以有多个   vvvvvv
+- The modification does NOT increase or decrease the speed of the algorithm considerably. 该修改没有明显地加快或减慢算法的速度
+- The modification changes the number of values to compare in each maximization step from 3 to 4. 该修改使得每次求最大值时，从需要比较三者变成需要比较四者
+- The modification makes the scoring of  latter similar alignments not affected by former alignments that are not similar. 该修改使得后续相似的比对的打分不会受到前面不相似比对的影响
+
+
+質問 10
+How many optimal alignments between the sequence "AAAAAA" and the sequence "A" can we get using Smith-Waterman algorithm with linear gap penalty? And how many optimal alignments can we get using Needleman-Wunsch algorithm with linear gap penalty?
+使用Smith-Waterman算法并采用线性空位罚分，序列AAAAAA和A一共有几个最优比对？利用Needleman-Wunsch算法并采用线性空位罚分的得到的结果又是多少？
+
+- 8, 6
+- 1, 0
+- 4, 2
+- 6, 6   vvvvvv
+- 4, 0
+- 8, 1
+
+
+質問 11
+We can extend our pairwise sequence alignment to the case where we need to align three sequences at the same time. If we still use dynamic programming to align the sequences, then how many values should we compare in the maximization step of each recursion?
+我们可以把双序列比对拓展到三序列比对，仍然采用动态规划的算法。请问此时在每一次迭代里求最大值时，需要比较多少个值？
+
+- 4
+- 9
+- 7   vvvvvv
+- 5
+
+
+質問 12
+The time complexity of Needleman-Wunsch algorithm is O(m*n) for pairwise sequence alignment with one sequence of length m and the other of length n. For the three sequence alignment problem in Question 11, if their lengths are m, n, and k, respectively, then what is the time complexity?
+对于两条长度分别为m和n的序列进行双序列比对，Needleman-Wunsch算法的时间复杂度为O(m*n)。对于11题的三序列比对，若三条序列长度分别为m、n、k，则该算法时间复杂度为？
+
+- O(max(m*n , n*k , k*m))
+- O(m*n + n*k + k*m)
+- O(m+n+k)
+- O(min(m*n , n*k , k*m))
+- O(max(m*max(n,k),n*max(m,k),k*max(m,n)))
+- O(m*n*k)   vvvvvv
+
+
+質問 13
+Given the following scoring matrix:
+ and gap penalty d=-5,
+
+use dynamic programming to do global sequence alignment for these two sequences: TGAA and TCGA :
+The value of the blue block is ______ 
+给定上面的打分矩阵和空位罚分d=-5，利用动态规划对下面两个序列进行全局比对： TGAA 和 TCGA
+蓝色格子的值应为______
+
+- -2
+- -8
+- -6
+- -1
+- -4   vvvvvv
+- -5
+
+
+質問 14
+In Question 13, if global alignment is used, the final alignment(s) is ______
+第13题，如果使用全局比对，则最终比对结果是______
+
+- T- GAA TCG -A   vvvvvv
+- TGAA TCGA
+- TG-AA TCGA
+- -TGAA TCGA-
+- T- GAA TCGA-      vvvvvv
+- TG-AA TCGA-
+
+
+質問 15
+What's the disadvantage of currently used BLAST in comparison with Smith-Waterman algorithm?
+BLAST相比Smith-Waterman算法，缺点是？
+
+- It cannot handle long query sequences 无法处理长的查询序列   xxxxxx
+- It cannot handle short query sequences such as primers 无法处理短查询序列如引物
+- It cannot handle cases where there are repeats. 无法处理有重复序列的情况
+- It is always slightly slower. 速度总是稍慢
+- It cannot handle cases where there are gaps. 无法处理有空位的情况
+- It cannot guarantee to find the globally optimal solution. 不能保证找到全局最优解   vvvvvv
+
+
+質問 15
+Which of the following is the best method to find out complementary regions between two nucleotide sequences?
+下列方法中，确认两条核酸序列有能够互补配对的区域的最好的方法是？
+
+- Use Smith-Waterman algorithm to align the reverse sequence of one sequence to the other sequence 使用Smith-Waterman算法，对一条序列颠倒顺序后得到的序列和另一条序列做比对
+- Use Needleman-Wunsch algorithm to align the reverse sequence of one sequence to the other sequence 使用Needleman-Wunsch算法，对一条序列颠倒顺序后得到的序列和另一条序列做比对
+- Use Smith-Waterman algorithm to align the complementary sequence of one sequence to the other sequence 使用Smith-Waterman算法，对一条序列的互补链和另一条序列做比对   vvvvvv
+- Use Needleman-Wunsch algorithm to align the complementary sequence of one sequence to the other sequence 使用Needleman-Wunsch算法，对一条序列的互补链和另一条序列做比对
+
+
+質問 16
+For solving which of the following problems will Smith-Waterman algorithm be NO better than Needleman-Wunsch algorithm?
+解决下述哪一项问题，用Smith-Waterman算法不会比Needleman-Wunsch算法更好？
+
+- Smith-Waterman algorithm will always perform better than Needleman-Wunsch algorithm for all these problems. 这几个问题Smith-Waterman算法解决起来都会更好   vvvvvv
+- Find out the similar functional domain(s) between two protein sequences 找出两个蛋白序列之间相似的功能域
+- Find out repeats in a sequence 找出一条序列中的重复片段
+- Find out the gene in a genome from which a given mRNA is transcribed 找出一条转录出来的mRNA来源于基因组上（DNA序列）哪一个基因
+
+
+質問 16
+Which of the following sequences is NOT a suitable seed for BLAST?
+下述序列中哪一个不适合做BLAST的种子？
+
+- This depends on the query sequence and the database sequence. 这取决于查询序列和数据库序列   vvvvvv
+- AGCTGC
+- TACGAC
+- GCAGCT
+
+
+質問 17
+Which of the following statements is NOT correct, with respect to the standard used by BLAST to discard isolated hits?
+关于BLAST去除零散hits的标准，下列说法哪一个不对？
+
+- Isolated hits can be parallel to the main diagonal, but cannot reside on the main diagnoal. 零散的hits可以平行于主对角线，但不能位于主对角线上   vvvvvv
+- Isolated hits can run in a direction not parallel to the main diagonal AND reside on places other than the diagonal AT THE SAME TIME. 零散的hits可以不平行于主对角线也不位于主对角线上
+- Isolated hits can reside on the main diagonal. They can also be parallel to the main diagonal. 零散的hits可以位于主对角线上，也可以平行于主对角线
+- All the other three statements are NOT correct. 该选项以外的三种说法都不对
+
+
+質問 18
+Why does BLAST use dynamic programming to realign the sequence after extending the hit cluster?
+为什么BLAST在延伸hit cluster后，还要重新用动态规划算法做一次比对？
+
+- There's no reason, and this step is in fact optional. 没有为什么，这一步实际上不做也行
+- Using dynamic programming, we can work out directly the p-value denoting the probability that this alignment is random. 通过动态规划算法，可以直接算出这个比对是随机产生的p-value值
+- All the other three statements are NOT correct. 该选项之外其余三种说法都不对
+- To find out the optimal alignment of the query sequence to the region around the hit cluster 求得延伸后hit cluster所覆盖范围内及周围的最优比对   vvvvvv
+
+
+質問 19
+If your protein sequence has 100 amino acids, then what is the expected number of perfect matches by chance if you search the Swiss-Prot database for this sequence?
+如果你的蛋白序列长度是100个氨基酸，那么你在Swiss-Prot数据库中检索它，随机情况下期望得到的完美匹配数x是？
+
+- 10E-140 < x < 10E-130   vvvvvv
+- 10E-120 < x < 10E-110
+- 10E-170 < x < 10E-160
+- 10E-90 < x < 10E-80
+
+
+質問 19
+Assume that you have tried a seed word "FAT" to find some hits. Now you want to try one of its neighbourhood words. Then which one of the following words will you try first? (If you need some additional information, please refer to Slide 16 of the lecture of Week 3, Unit 2.)
+假设你尝试了某种子单字FAT，找到了一些hits，然后你又想尝试它的邻居单字，那么你应该先使用下面哪一个？(如果需要，请参考课件Week 3，Unit 2的第16页的替代矩阵)
+
+- RAT   xxxxxx
+- PAT   xxxxxx
+- FAG   xxxxxx
+- FIT
+
+
+質問 20
+Which of the following statements is NOT correct with respect to BLAST E-value?
+下列关于BLAST E-value的说法，不正确的是
+
+- If E-value is 3.42, then it means that there will be 3.42 alignments by chance whose scores are not lower than that of the current alignment. E-value如果是3.42，那就意味着会有3.42个随机匹配获得与当前比对相等或更高的分数
+- The longer the query sequence is, the larger the E-value will be. 输入序列越长，E-value越大
+- When p-value is 0.05, the corresponding E-value is also 0.05 p-value为0.05时，相应的E-value也是0.05   vvvvvv
+- When E-value is larger than 1, it is not equal to its corresponding p-value E-value超过1时，p-value和E-value不相等
+
+
+質問 21
+Which of the following statements is NOT correct with respect to BLAST algorithm?
+关于BLAST算法，下列说法不正确的是
+
+- We should raise the lower bound of alignment score below which the alignment extension is aborted, in order to speed up BLAST 为了提升BLAST速度，应提高hit cluster向两端延伸过程中不能越过的分数下限   1xxxxxx   2xxxxxx   4xxxxxx
+- We should use shorter seed words to speed up BLAST 为了提升BLAST速度，应尽量使用短一点的种子单字   1xxxxxx   2xxxxxx   3xxxxxx
+- We should use fixed seed words in order to speed up BLAST 为了提升BLAST速度，应使用固定的种子单子   1xxxxxx   3xxxxxx   6xxxxxx
+- We should mask low-complexity regions to speed up BLAST 为了提升BLAST速度，应屏蔽低复杂度区域   1xxxxxx   4xxxxxx   5xxxxxx   6xxxxxx
+- We should use dynamic programming at the first stage in order to speed up BLAST 为了提升BLAST速度，应在最开始就应用动态规划   1xxxxxx   2xxxxxx   5xxxxxx
+- We should build indices for seed words in advance to speed up BLAST 为了提升BLAST速度，应提前给种子单字建索引   1xxxxxx   2xxxxxx   3xxxxxx
+
+
+質問 22
+Which of the following statements is NOT correct with respect to BLAST algorithm?
+关于BLAST算法，下列说法不正确的是
+
+- We need to consider neighbor words that are similar to the seed word to find out all real matches 为了把所有实际上相符合的序列都找出来，需要考虑和种子单字相似的邻居单字
+- We need to sort the results by E-value to avoid false positives. 为了避免假阳性，需要用E-value给结果排序
+- We need to use longer seed words to find out all real matches 为了把所有实际上相符合的序列都找出来，需要用较长的种子单字   vvvvvv
+- We need to mask low-complexity regions to avoid false positives. 为了避免假阳性，需要屏蔽低复杂度区域
+
+
+質問 23
+Which of the following problems cannot be properly solved by BLAST?
+BLAST不适合解决下面哪一种问题？
+
+- Find out where the similar parts are between genomes from two human individuals 比较两个人的基因组哪些部分比较相似   1xxxxxx   2xxxxxx   6xxxxxx
+- Map NGS reads to a reference genome 把新一代测序的读段定位在参考基因组上   1xxxxxx   4xxxxxx
+- Find out possible mouse homologues of a human gene 给出人中某基因在小鼠中的可能的同源基因   1xxxxxx   2xxxxxx
+- Find out from which gene a newly discovered transcript is transcribed 找到新发现的某转录本可能来自于哪一个基因   1xxxxxx   4xxxxxx   5xxxxxx   6xxxxxx
+- All these problems can be properly solved by BLAST 这些问题都适合用BLAST解决   1xxxxxx   3xxxxxx   5xxxxxx
+
+
+質問 24
+Which of the following is correct with respect to k-order Markov Chain?
+关于k阶马尔科夫链，下列说法正确的是
+
+- The probability distribution of the state at time m(m>k) is and only is determined by its preceding k states m（m>k）时刻状态的概率分布由且仅由前k个时刻的状态决定   vvvvvv
+- The probability distribution of the state at time m(m>k) is independent of its succeeding k states m (m>k) 时刻状态的概率分布与后k个时刻的状态无关   vvvvvv
+- The probability distribution of the state at time k is and only is determined by its immediate preceding state k时刻状态的概率分布由且仅由前一个时刻的状态决定
+- The probability distribution of the state at time m(m>k) is and only is determined by its succeeding k states m（m>k）时刻状态的概率分布由且仅由后k个时刻的状态决定
+- The probability distribution of the state at time m(m>k) is and only is independent of its preceding k states m (m>k) 时刻状态的概率分布与且仅与前k个时刻的状态无关
+- The probability distribution of the state at time k is and only is determined by its immediate succeeding state k时刻状态的概率分布由且仅由后一个时刻的状态决定
+
+
+質問 25
+Which of the following is NOT correct with respect to Hidden Markov Model (HMM) ?
+下列关于隐马尔科夫模型的说法不正确的是：
+
+- HMM can not be used to do multiple sequence alignment 不能用作多序列比对   vvvvvv
+- HMM can not be used to predict intron HMM不可以用来预测内含子   vvvvvv
+- To use HMM, we must ensure differences between the emission probabilities of each state 使用时必须保证各态之间存在生成概率上的差异
+- HMM can be used to predict protein functional domain. 可以用来预测蛋白功能域
+- HMM can be used to predict intron 可以用来预测内含子
+- HMM can be used to predict 5' splicing sites 可以用来预测5’剪切位点
+
+
+質問 26
+Which of the following state paths cannot be an optimal solution for the linear gap penalty introduced to the pairwise sequence alignment in this MOOC? (If you need additional information, please refer to the model in Slide 15 of the lecture in Week 4, Unit 1.)
+下面哪一种状态路径不可能是课上所讲的双序列比对线性罚分系统里的最优解?(请参照Week 4， Unit 1，第15页的模型)
+
+- MMMMYX   1xxxxxx   3xxxxxx   4xxxxxx   6xxxxxx
+- XXXXXYMMM   1xxxxxx   3xxxxxx   4xxxxxx   6xxxxxx
+- MMMMMM   4xxxxxx
+- YYMMMX   1xxxxxx   3xxxxxx   4xxxxxx   5xxxxxx
+- XMXMXM   1xxxxxx   2xxxxxx   6xxxxxx
+
+
+質問 27
+According the lecture of week 4, which of the following statements is NOT correct with respect to transition probability matrix ?
+依据第四周课件，关于转移概率矩阵，下述说法中不正确的是
+
+- The sum of elements must be 1 for each column. 每列加和一定为1   5xxxxxx
+- The sum of all elements in the matrix must equal the number of observable states 整个矩阵所有元素之和一定为可观察状态数目的值   1xxxxxx
+- The sum of elements must be 1 for each row. 每行加和一定为1   5xxxxxx   6xxxxxx
+- The matrix is not necessarily symmetric with respect to its main diagonal. 不一定沿主对角线对称   1xxxxxx   3xxxxxx   4xxxxxx
+- All the other three statements are correct. 该选项以外其它三种说法都对   1xxxxxx   4xxxxxx
+- The sum of all elements in the matrix must equal the number of hidden states 整个矩阵所有元素之和一定为隐状态数目的值   1xxxxxx   2xxxxxx   6xxxxxx
+
+
+質問 28
+Given the following state transition graph and emission probabilities for each state, 
+给定如下状态转移关系和每个状态下的生成概率，
+
+What's the probability of observing "abccc" through state transition path 1-2-2-2-3?
+则通过状态转移路径1-2-2-2-3观测到序列abccc的概率是多少？
+
+- 0.00108
+- 0.00072
+- 0.00336
+- 0.000072   vvvvvv
+- 0.000108
+- 0.0036
+
+
+質問 29
+How many possible state paths can emit the token sequence "cbba" AND start from state 1 AND end at state 3, given the state transition graph in Question 28?
+根据第28题的状态转移图示，可能产生符号序列cbba的由1起始由3结束的状态序列一共有几种？
+
+- 8
+- 7
+- 5
+- 6   vvvvvv
+- 4
+- 3
+
+
+質問 30
+Does HMM guarantee to find the state path that has the globally largest probability of occurrence?
+HMM是否一定能求到全局角度发生概率最大的状态路径？
+
+- Yes 是   vvvvvv
+- No, but it can guarantee to find the state path that has the locally largest probability of occurrence 不是，但可以保证求到局部发生概率最大的状态序列
+- No, and it cannot guarantee to find out the state path that has the locally largest probability of occurrence either 不是，而且也不能保证求到局部发生概率最大的状态序列
+
+
+質問 31
+Which of the follow is not correct if we do sequence alignment using HMM?
+利用HMM模型进行序列比对时，以下哪个说法不正确：
+
+- State M means a match or mismatch 状态M对应一个match 或者mismatch
+- The time complexity is lower than dynamic programming 其时间复杂度比动态规划要低   vvvvvv
+- We can get an alignment with maximal probability 可以获得比对结果中概率最大的
+- State X or Y means a gap 状态X或Y对应一个gap
+
+
+質問 32
+Using the HMM model in 4.2 for sequencing alignment, given the probability from M to M being 0.8, the probability from X to X being 0.4, then the probability from M to X being ____, the probability form X to M is ____. 
+利用4.2课件中所描述的HMM模型进行序列比对，已知M态到M态的概率为0.8，X到X态的概率是0.4，则M态到X态和X态到M态的概率分别为：
+
+- 0.1, 0.6   vvvvvv
+- 0.2, 0.6
+- 0.2, 0.3
+- 0.1, 0.3
+- 0.4,0.3
+- 0.4.0.6
+
+
+質問 33
+Sanger sequencing technique is still widely used even after the development of high-throughput sequencing technology. Which of the following statements is/are the advantages of Sanger sequencing technique?
+高通量测序技术出现后，Sanger测序技术仍有广泛的应用，下面哪些是Sanger测序技术的优势？
+
+- Lower error rates 错误率低   1xxxxxx   2xxxxxx   5xxxxxx
+- Longer reads 读长更长   1xxxxxx   2xxxxxx   3xxxxxx
+- Larger genome coverage 在基因组上覆盖度更大   1xxxxxx   2xxxxxx   6xxxxxx
+- Lower costs 成本低   4xxxxxx
+- Deeper sequencing depth 测序深度更深   1xxxxxx   3xxxxxx   6xxxxxx
+- Faster sequencing 测序速度快   4xxxxxx   5xxxxxx
+
+
+質問 34
+Do all bases of the same read have identical base qualities in high-throughput sequencing?
+在高通量测序中，一条read上每个碱基的质量都相同吗？
+
+- Yes 是
+- No 否   vvvvvv
+
+
+質問 35
+According to the video lectures in week 5, if the ASCII code of base quality score 0 is noted as “!”, what is the sequencing error probability p given base quality coded “A”?
+根据第五周的课程内容，如果测序质量分数0对应的测序质量ASCII码值为”!”，那么测序质量为“A”的碱基的测序错误概率是多少？
+
+- 0.000631   vvvvvv
+- 0.01262
+- 0.001262
+- 0.00631
+- 0.0631
+- 0.0001262
+
+
+質問 36
+Which of the following statements is/are the application(s) of high-throughput sequencing technology?
+下面哪些是高通量测序技术的应用？
+
+- Protein-protein interaction analysis 蛋白相互作用分析   3xxxxxx   5xxxxxx
+- Transcriptome analysis 转录组分析   1xxxxxx   4xxxxxx   6xxxxxx
+- DNA-protein interaction analysis DNA-蛋白相互作用分析   1xxxxxx   2xxxxxx   3xxxxxx
+- DNA variant analysis DNA变异分析   1xxxxxx   2xxxxxx   6xxxxxx
+- DNA modification analysis DNA修饰分析   2xxxxxx   4xxxxxx
+
+
+質問 37
+In reads mapping, a read is often divided into several non-overlapping fragments, the "seed" one(s) of which (i.e. one(s) that can be perfectly matched to the reference genomes) will be located first in the reference genome. If there are at most 3 variants in a read,  then what is the minimum of segments we should divide the read into to guarantee to find a "seed"?
+在做reads mapping中，通常把一个read划分为若干不重复的片段，然后选取其中能与参考基因组完全匹配的片段(种子)首先定位在参考基因组中。若在一个read中最多会有3个变异，则至少应将该read划分为几个片段会保证能找到种子？
+
+- 5
+- 4   vvvvvv
+- 1
+- 6
+- 2
+- 3
+
+
+質問 38
+What important technique did Illumina (Solexa) develop, and is widely used today, to deal with very short reads?
+为了克服读长过短的问题，Illumina（Solexa）开发了何种至今已经被广泛应用的重要技术？
+
+- Sequencing by synthesize 边合成边测序技术
+- Solid capture 固相捕捉技术
+- Emulsion PCR 乳液PCR技术
+- Pyrosequencing 焦磷酸测序技术
+- Sequencing by ligation 连接测序技术
+- Pair-end sequencing 双端测序技术   vvvvvv
+
+
+質問 39
+According to the letcutes，next generation sequencing is often called deep sequencing mainly because ___
+根据讲座内容，为什么新一代测序经常被叫做深度测序？
+
+- The sequencing depth is deep 测序深度较深   vvvvvv
+- It sequences deep in to the tissue 测序深入组织内部
+- It uses deep-well thermocyclers 需要利用深孔PCR仪
+- Sequencing reactions happen deep in sequencers 测序反应发生在测序仪深处
+- It deepens our understandings in genomics 加深了我们对基因组学的理解
+- None of the above 以上选项均不正确
+
+
+質問 40
+According to the lecture, given a next generation sequencing result AAAa with average error rate 0.1, what are the probabilities of genotype (A,A), (A, a) and (a, a)?
+依据课程视频内容，在新一代测序结果 AAAa 中，平均错误率0.1的前提下，三种基因型(A, A), (A, a)和(a, a)的概率分别是多少？
+
+- 0.1, 0.899, 0.001   vvvvvv
+- 0.0729, 0.9262, 0.0009
+- 0.2916, 0.7048, 0.0036
+- 0.4, 0.596, 0.004
+- 0.12, 0.8788, 0.0012
+- 0.48, 0.5152, 0.0048
+
+
+質問 41
+Does EVERY variant in the genome have some effect on phenotype?
+基因组上的所有变异都会对表型造成影响吗？
+
+- Yes 是
+- No 否   vvvvvv
+
+
+質問 42
+Is it correct that variants only occurring in patients' genomes, but not in healthy people's genomes must be pathogenic?
+只在病人基因组中出现而不在健康人的基因组中出现的变异一定是致病变异吗？
+
+- Yes 是
+- No 否   vvvvvv
+
+
+質問 43
+Which of the following variants do not change the protein coded by the gene?
+下面哪一种类型的变异一般不会改变基因编码的蛋白？
+
+- Chromosome deletion 染色体缺失
+- Nonsense mutation 无义突变
+- Inversions 倒位现象
+- Frameshift mutation 移码突变
+- Nonsynonymous mutation 非同义突变
+- Synonymous mutation 同义突变   vvvvvv
+
+
+質問 44
+Does OMIM only record variants from human genome?
+OMIM中只记录了人类基因组中的变异吗？
+
+- Yes 是   vvvvvv
+- No 否
+
+
+質問 44
+Does dbSNP only record variants from human genome?
+dbSNP中只记录了人类基因组中的变异吗？
+- Yes 是
+- No 否   vvvvvv
+
+
+質問 45
+Are variants recorded in dbSNP all neutral?
+dbSNP中记录的变异都是中性的吗?
+
+- Yes 是
+- No 否   vvvvvv
+
+
+質問 46
+Which of the following database(s) can be used to find out a known pathogenic mutation in a gene?
+为找到一个基因上已知的致病突变，可以搜索下面哪些数据库？
+
+- dbSNP 单核苷酸多态性数据库
+- 1000 Genomes dataset 千人基因组数据
+- OMIM 人类孟德尔遗传在线数据库   vvvvvv
+- HGMD 人类基因突变数据库   vvvvvv
+
+
+質問 47
+Is it correct that variants in conserved regions must lead to phenotypic changes?
+位于保守区的变异一定会造成表型的改变吗？
+
+- No 否   vvvvvv
+- Yes 是
+
+質問 48
+Are all disorder regions in the 3D protein structure nonfunctional?
+蛋白三维结构中的无序区域都是没有功能的吗？
+
+- No 否   vvvvvv
+- Yes 是
+
+
+質問 49
+A benchmark test of a prediction method gave the following statistics:
+测试一个预测方法的性能，试验后经过统计得到如下数据：
+
+What's the false positive rate for this prediction method?
+则该方法的假阳性率是多少？
+
+- 0.8
+- 0.4   vvvvvv
+- 0.33
+- 0.6
+- 0.67
+- 0.2
+
+
+質問 50
+In Question 49, what is the precision of this method?
+在第49题中，该方法的精度是多少？
+
+- 0.1
+- 0.7
+- 0.33
+- 0.2
+- 0.8
+- 0.67   vvvvvv

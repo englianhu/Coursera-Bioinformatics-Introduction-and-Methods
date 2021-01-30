@@ -1,0 +1,126 @@
+Ontology and Identification of Molecular Pathways
+合計点数 6
+
+質問 1
+Which is not the three categories of Gene Ontology?
+Gene Ontology的三大分类不包括下面中的哪一项？
+
+- Cellular Component
+- Biological Regulation   vvvvvv
+- Molecular Function
+- Biological Process
+
+
+質問 2
+Which one of the following inferences is right?
+如下哪个推断是正确的？
+
+- If A is part of B, and B regulates C, then A regulates C.
+- If A is a B, and B regulates C, then A is a C.   xxxxxx
+- If A regulates B, and B is part of C, then A regulates C.   vvvvvv
+- If A regulates B, and B regulates C, then A regulates C.
+
+
+質問 3
+Which following pathways do CCR5 (hsa:1234) belong to? (Hint: search from KEGG website http://www.genome.jp/kegg/)
+CCR5 (hsa:1234)属于如下哪些条pathway？ (提示：搜索KEGG网站 http://www.genome.jp/kegg/)
+
+- Cytokine-cytokine receptor interaction   2xxxxxx
+- Wnt signaling pathway   1xxxxxx   3xxxxxx
+- Chemokine signaling pathway   1xxxxxx   3xxxxxx   4xxxxxx
+- p53 signaling pathway   3xxxxxx
+
+
+質問 4
+Which following GO evidence codes do belong to computational analysis evidence?
+如下哪些GO证据代码属于计算分析证据？
+
+- sequence orthology (ISO)   vvvvvv
+- expression pattern (IEP)
+- direct assay (IDA)
+- key residues (IKR)   vvvvvv
+
+
+質問 5
+Which of the following statements about KEGG ORTHOLOGY (KO) is right?
+如下哪个关于KEGG ORTHOLOGY (KO)的陈述是正确的？
+
+- KO is a functional hierarchy of five levels KO是一个具有五级的功能层次
+- The terms in the first level of KO includes Metabolism, Genetic Information Processing, and Cellular Processes. KO第一层的term包括Metabolism, Genetic Information Processing, and Cellular Processes   vvvvvv
+- An ortholog group only contains orthologs ortholog group中只包含ortholog
+- The second level of KO contains ortholog groups (KO entries) KO第二层含有ortholog groups (KO entries)
+
+
+質問 6
+In an experiment you got the following  differential expressed human gene list(in Entrez Gene ID format), which KEGG pathway is the most statistically significantly enriched one by using KOBAS with default settings?
+在一次实验中得到了如下差异表达人类基因列表（Entrez Gene ID格式），用KOBAS得到的KEGG pathway哪条是统计上最显著富集的（采用默认参数）？
+KOBAS: http://kobas.cbi.pku.edu.cn/
+
+12
+18
+88
+114
+231
+627
+725
+836
+1124
+1137
+1152
+1267
+1268
+1385
+1428
+1501
+1548
+1813
+1815
+2119
+2166
+2353
+2354
+2565
+2908
+3091
+3164
+3356
+3481
+3916
+4129
+4155
+4353
+4781
+5121
+5126
+5179
+5414
+5602
+5860
+5870
+5999
+6421
+6531
+6532
+6606
+7054
+7086
+7124
+7529
+8288
+9040
+9568
+10399
+10439
+10912
+23236
+23237
+27075
+54704
+79830
+114876
+
+- Estrogen signaling pathway
+- Cocaine addiction
+- Retrograde endocannabinoid signaling
+- Dopaminergic synapse   vvvvvv
+

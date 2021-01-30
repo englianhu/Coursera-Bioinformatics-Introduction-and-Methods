@@ -1,0 +1,84 @@
+Next Generation Sequencing: Transcriptome Analysis, and RNA-Seq
+合計点数 8
+
+
+質問 1
+Which of the following statement is not an application of RNA-Seq?
+下面哪一项不是RNA-Seq的应用？
+
+- Identify transcripts 鉴定转录本
+- Find out exactly the copy number of each transcript 准确确定每个转录本的拷贝数   vvvvvv
+- Estimate gene expression levels 确定基因表达量
+- Find out differentially expressed genes 寻找差异表达基因
+
+
+質問 2
+Which of the following statements is wrong about RNA-Seq?
+关于RNA-Seq，下面哪一项说法是错误的？
+
+- RNA-Seq can be used to identify alternative splicing isoforms in transcriptome RNA-Seq可以用来鉴定转录组中的可变剪切体
+- Using RPKM to estimate gene expression levels can avoid artifacts of gene expression analysis caused by transcript length and sequencing depth 使用RPKM来衡量基因表达量的大小可以排除转录本长度和测序深度对分析表达量的影响
+- RNA-Seq cannot tell from which strand of the DNA each RNA is transcribed RNA-Seq无法区分每条RNA是转录自DNA双链中的哪一条链   vvvvvv
+- The efficiency and sensitivity of RNA-Seq depends on the sequencing depth RNA-Seq的检测效率和灵敏度依赖于测序的深度
+
+
+質問 3
+Assume we use RNA-Seq to get 1,000 reads that are mapped back to a gene with a length of 10,000 bp. If the total number of reads mapped back to the genome is 10,000,000, then what is the expression level (in RPKM) of this gene?
+通过RNA-Seq测得回帖到某基因上的序列共1,000条，该基因长度为10,000bp， 且回帖到整个基因组的序列共10,000,000条，则该基因的表达量用RPKM衡量应该是多少？
+
+- 1,000
+- 100
+- 10   vvvvvv
+- 1
+
+
+質問 4
+Let's sequence the human transcriptome. Assume that the total number of reads mapped back to the genome is 10,000,000, among which 20,000 are mapped to gene A and 40,000 are mapped to gene B. If gene A has a length of 1,000 bp and gene B has a length of 3,000 bp, then whose expression level is higher?
+对人的转录组进行测序，回帖到基因组上的序列一共有10,000,000条，其中位于基因A上的序列有20,000条，位于基因B上的序列有40,000条，基因A的长度为1,000bp, 基因B的长度为3,000bp，则A与B的表达量哪一个更高？
+
+- It cannot be determined. 无法确定
+- The expression level of A is higher. A的表达量更高   vvvvvv
+- A and B have the same expression level. A和B的表达量相同
+- The expression level of B is higher. B的表达量更高
+
+
+質問 5
+Which of the following statement is true with respect to the Join exon strategy used in reads mapping in RNA-Seq?
+关于RNA-Seq中序列回帖的Join exon方法，下面说法中正确的是
+
+- It can discover new splicing isoforms. 该方法能够发现新的剪切体   vvvvvv
+- It can discover new exons. 该方法能够发现新的外显子
+- It can discover new genes. 该方法能够发现新的基因
+- It runs more slowly. 该方法运行速度较慢
+
+
+質問 6
+Which of the following statement is wrong with respect to the Split reads strategy used in reads mapping in RNA-Seq?
+关于RNA-Seq中序列回帖的Split reads方法，下面说法中错误的是
+
+- It can discover new exons. 该方法能够发现新的外显子
+- It can discover new splicing isoforms. 该方法能够发现新的剪切体
+- It runs more faster. 该方法运行速度较快   vvvvvv
+- It can discover new genes. 该方法能够发现新的基因
+
+
+質問 7
+Assume that the RNA-Seq reads are mapped back to part of a gene as shown below:
+已知RNA-Seq测序数据回帖后在某个基因区间的情况如下图所示：
+Then what is the minimum number of transcripts this gene could have?
+则该基因至少有几种转录本？
+
+- 1
+- 3   vvvvvv
+- 5
+- 6
+
+
+質問 8
+In Question 7, what is the maximum number of transcripts this gene could have? Assume that all the transcripts of this gene have been sequenced.
+在第7题中，该基因最多有多少个转录本？(假设所有转录本均已被测到)
+
+- 1
+- 2
+- 3
+- 6   vvvvvv

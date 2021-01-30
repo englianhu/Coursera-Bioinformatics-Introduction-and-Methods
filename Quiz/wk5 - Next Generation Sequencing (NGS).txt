@@ -1,0 +1,52 @@
+Next Generation Sequencing (NGS)
+合計点数 5
+
+質問 1
+Which of the following is not high-throughput sequencing technology?
+下面哪一项不是高通量测序技术？？
+
+- 454
+- HiSeq
+- SOLiD
+- Sanger sequencing   vvvvvv
+
+
+質問 2
+Which one is the high-throughput sequencing technique developed first?
+下面哪一个是最早出现的高通量测序技术？
+
+- SOLiD   xxxxxx
+- HiSeq   xxxxxx
+- 454
+- Ion Torrent PGM   xxxxxx
+
+
+質問 3
+Compared with Sanger Sequencing, what is/are the feature(s) of the high-throughput sequencing technique?
+与Sanger测序相比，高通量测序技术有哪些特点？
+
+- Higher error rate 错误率高   3vvvvvv
+- Lower cost 成本低   1vvvvvv   2vvvvvv   3vvvvvv
+- Shorter lengths 长度短   2vvvvvv   3vvvvvv
+- Faster sequencing 速度快   1vvvvvv   2vvvvvv   3vvvvvv
+
+
+質問 4
+Given a base with sequencing quality being 30, what is the probability of this base being erroneously sequenced?
+当一个碱基的测序质量为30时，该碱基的错误率是多少？
+
+- 1/300   xxxxxx
+- 1/100
+- 1/1000   vvvvvv
+- 1/30   xxxxxx
+
+
+質問 5
+By applying which one(s) of the following statements can we speed up reads mapping?
+下面哪些方法可以用来加速序列回帖？
+
+- Use dynamic programming to find out the optimal location(s) of the short sequence in the reference sequence 采用动态规划的办法查找短序列在参考序列中的最优位置   2xxxxxx
+- Build hash index for the reference sequence 采用hash的办法为参考序列建立索引   1vvvvvv   2vvvvvv   3vvvvvv
+- Store the reference sequence in suffix tree 将参考序列存入后缀树中   1vvvvvv   2vvvvvv   3vvvvvv
+- Store the reference sequence in prefix tree 将参考序列存入前缀树中   3vvvvvv
+

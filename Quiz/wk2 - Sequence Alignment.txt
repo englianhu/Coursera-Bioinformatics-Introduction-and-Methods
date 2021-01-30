@@ -1,0 +1,92 @@
+Sequence Alignment
+合計点数 9
+
+質問 1
+在使用动态规划进行序列比对时，比对结果是唯一的吗？
+Is the best result derived from dynamic programming unique when doing sequence alignment?
+
+- 不唯一  No, sometimes it may have more than one best result.  vvvvvv
+- 唯一  Yes, it is unique
+
+
+質問 2
+在氨基酸的序列比对结果中，一个“：”表示什么意思：
+What’s the meaning of “:” in the “markup line”of amino acid sequence alignment
+
+- 相同的残基  the same residues
+- 两个相似的残基比对到一起 the residues are similar   vvvvvv
+- 两个不相似的残基比对到一起 the residues are not similar
+- 一个空位 a gap
+
+
+質問 3
+一种替换在自然界中越容易发生，则这种替换在打分矩阵中对应的数值
+The more likely it is for a substitution to happen in the natural world, the ____ its substitution score in the scoring matrix will be.
+
+- 越小 Smaller
+- 越大 Larger   vvvvvv
+
+
+質問 4
+Given scoring matrix and gap penalty d=-5
+use dynamic programming to do sequence alignment for this two sequences: AAGT and AGCT :
+If using global alignment, the value of the yellow block is ______ 
+给定上面的打分矩阵和空位罚分d=-5，利用动态规划对下面两个序列进行比对： AAGT 和 AGCT
+对于全局比对， 黄色格子的值应为______
+
+- -8   vvvvvv
+- -6
+- 1
+- -4
+
+
+質問 5
+If using global alignment, the value of blue block in question 4 is ______
+对于全局比对，第4题中蓝色格子的值为______
+
+- -8
+- 0
+- -4   vvvvvv
+- 2
+
+
+質問 6
+If using global alignment, the final alignment(s) in question 4 is ______
+对于全局比对，第4题的最终比对结果是______
+
+
+- AAG- T  - AGCT   ......
+- AAGT-   - AGCT   ......
+- AAGT      AGCT   ......
+- AAG- T  A- GCT   vvvvvv
+
+
+質問 7
+If using local alignment, the value of green block in question 4 is ______
+如果进行局部比对，那么第4题中绿色格子的值为______
+
+- 0   vvvvvv
+- 2
+- 1
+- 4
+
+
+質問 8
+If using local alignment, the value of blue block in question 4 is ______
+如果进行局部比对，那么第4题中蓝色格子的值为______
+
+- 1
+- 0
+- 4
+- 2   vvvvvv
+
+
+質問 9
+If using local alignment, the max value we can get from this alignment is
+利用局部匹配，我们可以在这个匹配过程中得到的最大的打分是：
+
+- 2
+- 4   vvvvvv
+- 6
+- 8
+
