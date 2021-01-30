@@ -1,0 +1,572 @@
+Final Exam
+合計点数 40
+
+質問 1
+你想查询一个已知的蛋白质的三维结构是否已经被解析出来了，应该去访问的数据库是
+To which of the following databases should you refer in order to find out whether a known protein has already had its 3D structure resolved?
+
+- OMIM
+- HGMD
+- PDB   vvvvvv
+- dbGAP
+
+
+質問 2
+以下测序质量中，代表测序错误率最低的是（单字以phred33形式记录）
+Which of the following qualities of sequencing denotes the lowest sequencing error rate?(single character recorded in phred33)
+
+- A   xxxxxx
+- 40   vvvvvv
+- ?
+- D
+- ;
+- H
+- !
+
+
+質問 3
+BAM格式中不包括的信息有哪些
+Which of the following information is NOT included in BAM format?
+
+- 实验者的名字 The name of the researcher   vvvvvv
+- 读段比对的染色体名字 The name of the chromosome of the read alignment
+- 读段的比对结果 The alignment result for reads
+- 读段比对程序的名字 The name of the read mapper program
+- 读段的质量 The quality of the read   xxxxxx
+- 读段序列 The sequence of the read
+- 读段的结构信息 The structure information of the read
+
+
+質問 4
+高通量测序技术的序列回帖算法思想最类似以下哪种？
+To which of the following algorithms is the reads mapping algorithm applied in
+high-throughput sequencing technique most similar with respect to their basic
+ideas?
+
+- Needleman-Wunsch全局比对 Needleman-Wunsch global alignment
+- 穷举算法 exhaustive method
+- BLAST索引和数据库搜索 BLAST index and database search   vvvvvv
+- Smith-Waterman局部比对 Smith-Waterman local alignment
+- 马尔科夫模型 Markov model
+- Kruskal 最小生成树算法 Kruskal  algorithm for Minimum Spanning Tree
+- 动态规划 Dynamic programming
+- 最大简约法 Maximum parsimony
+- 广度优先搜索 Breadth First Search
+
+
+質問 5
+下列哪一种测序仪不是高通量测序仪？
+Which of the following sequencers is not high-throughput?
+
+- 罗氏454焦磷酸测序仪 Roche 454 pyrosequencer   xxxxxx
+- Ion Torrent PGM半导体测序仪 Ion Torrent PGM semiconductor sequencer   xxxxxx
+- Illumina HiSeq测序仪 Illumina HiSeq sequencer   xxxxxx
+- Illumina MiSeq测序仪 Illumina MiSeq sequencer
+- Ion Torrent proton 半导体测序仪 Ion Torrent proton semiconductor sequencer
+- Illumina Nextseq 500 测序仪 Illumina Nextseq 500 sequencer
+- Illumina X10 测序仪 Illumina X10 sequencer
+- ABI SOLiD 测序仪 ABI SOLiD sequencer
+- ABI 3500 测序仪 ABI 3500 sequencer
+
+
+質問 6
+以下不属于生物信息学研究内容的是
+Which of the following statements does NOT belong to bioinformatics research?
+
+- 测序仪的水平稳定控制 Stability control of a sequencer   vvvvvv
+- 代谢分析图模型 Graph models for pathway analysis
+- 序列数据库搜索 Sequence database search
+- 转录组序列比对技术 Transcriptome sequence alignment
+
+
+質問 6
+以下不属于生物信息学研究内容的是
+Which of the following statements does NOT belong to bioinformatics research? (2 correct options)
+
+- 转录组序列比对技术 Transcriptome sequence alignment
+- 动作和手势识别比对技术 Movement and gesture recognition and alignment   vvvvvv
+- 基因组序列比对技术 Genome sequence alignment
+- 序列数据库搜索 Sequence database search
+- 氨基酸序列比对技术 Amino acid sequence alignment
+- 测序仪的水平稳定控制 Stability control of a sequencer   vvvvvv
+- 代谢分析图模型 Graph models for pathway analysis
+- 基因组数据挖掘 Data mining from genomic data
+- 构建系统发育树 Create phylogenic tree
+- 表型预测方法 Functional prediction methods
+
+
+質問 7
+下列关于替换矩阵的说法哪些是正确的
+Which of the following statements are correct with respect to substitution matrix?
+
+- 改变替换矩阵不会影响序列比对结果 Changing substitution matrix won't influence the result of a sequence alignment
+- 替换矩阵的值反应了碱基间的相似程度 The values in substitution matrix denote the similarities between bases   vvvvvv
+- 替换矩阵一定是沿主对角线对称的矩阵 The substitution matrix is always a matrix that is symmetric with respect to its main diagonal
+- 一种替换在自然界中越容易发生，则这种替换在打分矩阵中对应的数值越小 The easier it is for a particular substitution to happen in the real world, the smaller score this substitution has in the scoring matrix
+- PAM1矩阵比PAM100矩阵效果更好 PAM1 matrix is better than PAM100
+
+- 替换矩阵中没有gap的罚分 The gap penalty score is not in a substitution matrix.
+- BLOSUM62矩阵比BLOSUM90矩阵效果更好 BLOSUM62 matrix is better than BLOSUM90
+- BLOSUM90矩阵比BLOSUM62矩阵效果更好 BLOSUM90 matrix is better than BLOSUM62
+- 替换矩阵的值由且仅由经验公式决定 Values in a substitution matrix depends and only depends on empirical formula
+- PAM100矩阵比PAM1矩阵效果更好 PAM100 matrix is better than PAM1
+- 现在人们已经找到了序列比对时最好的打分矩阵 Now people have found the best scoring matrix for sequence alignment   xxxxxx
+
+
+質問 8
+Smith-Waterman算法和Needleman-Wunsch算法的说法中法哪些是正确的
+Which of the following statements are correct with respect to Smith-Waterman algorithm and Needleman-Wunsch algorithm? (3 correct options)
+
+- 单独使用Smith-Waterman算法和Needleman-Wunsch算法均不适合用于高通量测序数据分析 Neither Smith-Waterman algorithm nor Needleman-Wunsch algorithm alone are suitable for next-generation sequencing data analysis   1xxxxxx   3xxxxxx
+- Needleman-Wunsch算法更适用于长度相似的同源序列 Needleman-Wunsch algorithm is more suitable for homologous sequences with similar length   1xxxxxx
+- Needleman-Wunsch只能有一个最优解，Smith-Waterman可以有多个 Needleman-Wunsch can have only one optimal solution, while Smith-Waterman can have multiple optimal solutions   1xxxxxx   3xxxxxx
+- Smith-Waterman的结果优于Needleman-Wunsch的结果 Smith-Waterman outperforms Needleman-Wunsch   xxxxxx
+- Smith-Waterman算法更适用于寻找两个蛋白序列之间相似的功能域 Smith-Waterman algorithm is more suitable for finding similar function domains from two protein sequences   1xxxxxx
+- Needleman-Wunsch的结果优于Smith-Waterman的结果 Needleman-Wunsch outperforms Smith-Waterman   2xxxxxx
+- 单独使用Needleman-Wunsch不适合用于高通量测序数据分析，Smith-Waterman则适合 Needleman-Wunsch alone does not fit for next-generation sequencing data analysis, while Smith-Waterman alone is suitable for that
+- Needleman-Wunsch获得的是局部最优的结果，Smith-Waterman比对获得的是全局最优的结果 Needleman-Wunsch finds the locally optimal result, while Smith-Waterman find the globally optimal result   2xxxxxx
+- 同时使用Smith-Waterman算法和Needleman-Wunsch算法则适合于高通量测序数据分析 Combination of Smith-Waterman algorithm and Needleman-Wunsch algorithm is suitable for next-generation sequencing data analysis   2xxxxxx
+- 单独使用Smith-Waterman不适合用于高通量测序数据分析，Needleman-Wunsch则适合 Smith-Waterman alone does not fit for next-generation sequencing data analysis, while Needleman-Wunsch alone is suitable for that   3xxxxxx
+
+
+質問 9
+大规模进行数据比对时不采用动态规划算法的最主要原因
+What is the main reason that the dynamic programming algorithm is NOT used for large-scale alignments?
+
+- 消耗内存大 It cost too much memory
+- 结果不稳定 Its outcome is not unstable
+- 结果不准确 Its result is not accurate
+- 算法不可靠 Its algorithm is not reliable
+- 可重复性差 Its reproduciblility is poor
+- 编程难度大 Difficult to program
+- 运算速度慢 It runs too slow   vvvvvv
+
+
+質問 10
+BLAST有关说法中正确的有哪些
+Which of the following statements are correct with respect to BLAST?
+
+- 早期BLAST无法处理gap The early version BLAST can‘t deal with gap   1xxxxxx   2xxxxxx   3xxxxxx
+- BLAST屏蔽低复杂度区域的步骤没有作用，可以省略 The step of masking low-complexity regions in BLAST is useless and can be skipped   1xxxxxx   3xxxxxx
+- BLAST运行较比动态规划算法速度慢 BLAST runs slower than dynamic programming   1xxxxxx   2xxxxxx
+- BLAST一定能找到最优解 BLAST is guaranteed to find the optimal solution   1xxxxxx
+- BLAST是目前最快的序列比对算法 BLAST is the fastest alignment algorithm ever 
+- BLAST适合对高通量数据进行拼接 BLAST is suitable for align NGS to genome
+- 现在的BLAST比对数据库需要建立索引 Current BLAST needs to build indices when aligning to databases   2xxxxxx
+
+
+質問 11
+对同一序列进行tblastx时，其运算量理论上是blastn的几倍
+When doing sequence alignment to the same sequence, how many times is the theoretical computational overload of tblastx as big as that of blastn?
+
+- 1/6   xxxxxx
+- 1/4   xxxxxx
+- 1/3   xxxxxx
+- 6
+- 3
+- 12
+- 2
+- 1/2
+- 1/5
+- 5
+- 1/36
+- 36
+- 1/24
+- 24
+- 4
+
+
+質問 12
+哪个不是我们为了成功进行BLAST所需要调节的参数
+Which of the following parameters is NOT needed to tune to run BLAST successfully?
+
+- 选择的打分矩阵 Choice of substitution matrix   1xxxxxx   3xxxxxx
+- 种子字长 Seed word size   1xxxxxx   2xxxxxx
+- 屏蔽或不屏蔽低复杂度区域 Masking low-complexity regions or not   1xxxxxx   2xxxxxx   3xxxxxx
+- 序列的名称 The names of input sequences
+- 输入序列数量 The number of input sequences
+
+
+質問 13
+针对下图的说明中错误的是
+Which of the following statements is NOT correct with respect to the figure below?
+
+- 该情况下设置了1,2,3 三种隐状态 Given such an HMM, there are three hidden states: 1, 2, and 3   xxxxxx
+- 该情况下我们在每个状态可以观察到a，b，c三个值 Given such an HMM, we can observe three values at each state: a, b, and c   xxxxxx
+- 可能产生符号序列abccc的由1起始由3结束的状态序列有10种 There are in total 10 different state paths that starts from 1, ends at 3, and can generate the token sequence "abccc"   xxxxxx
+- 产生abccc的由1起始由3结束的状态中，概率最大的概率为0.00072 For all the state paths that starts from 1, ends at 3, and can generate the token sequence "abccc", the one with the largest probability of generating "abccc" has such probability being 0.00072
+
+
+質問 14
+各转移概率和生成概率如下表，则存在问题的一组是
+The transition probabilities and emission probabilities are given below. Then which of the following statements is NOT correct?
+
+- 生成概率的c行 The Row c in emission matrix   vvvvvv
+- 转移概率的n行 The Row n in transition matrix
+- 转移概率的c行 The Row c in transition matrix
+- 生成概率的n行 The Row n in emission matrix
+
+
+質問 15
+转录本分析中测定转录本表达水平的“金标准”（Gold Standard）是
+What is the gold standard for quantifying the expression level of transcripts in transcript analysis?
+
+- RNA-seq
+- 实时荧光定量PCR Real-time fluorescent quantitative PCR   vvvvvv
+- 基因芯片 microarray Gene chip microarray
+- 固相捕获 Solid phase capture
+- 表达序列标签 Expressed Sequence Tag
+
+
+質問 16
+关于RNA-Seq中序列回帖的Split reads方法，下面说法中错误的是哪些
+Which of the following statements are wrong with respect to the Split reads strategy used in reads mapping in RNA-Seq?
+
+- 该方法常与join exon方法组合使用 This method is always used together with the "join exon" method   1xxxxxx   3xxxxxx
+- 该方法运行速度较慢 This method runs slow   1xxxxxx   2xxxxxx
+- 该方法可以将所有读断定位到基因组上 This method can map all reads to genome   1xxxxxx
+- 该方法能够发现新的剪切体 This method is capable of discovering new splicing isoforms   2xxxxxx
+- 该方法不能发现新的外显子 The method cannot discover new exons   2xxxxxx   3xxxxxx
+
+
+質問 17
+如下图，转录本1的表达量为20，转录本2的表达量为30，则基因外显子1和2的表达量分别为
+As shown in the figure below, the Transcript 1 has its expression level being 20 and Transcript 2 has its being 30. Then what are the expression levels of Exon 1 and 2, respectively?
+
+- 40, 40
+- 50, 30   vvvvvv
+- 30, 50
+- 40, 30
+- 10, 50
+- 40, 50
+- 20, 30
+- 600, 30
+
+
+質問 18
+已知RNA-Seq测序数据回帖后在某个基因区间的情况如下图所示（请仔细观察图片，不同尝试图片可能会变）
+Assume that the RNA-Seq reads are mapped back to part of a gene as shown below(please check the picture carefully, the picture may change in different trial)
+则该基因至少有几种转录本？
+Then what is the minimum number of transcripts this gene could have?
+
+- 2
+- 6
+- 3   vvvvvv
+- 4
+
+
+質問 19
+在上一题中，该基因最多有多少个转录本？(假设所有转录本均已被测到)
+In the previous question, what is the maximum number of transcripts this gene could have? Assume that all the transcripts of this gene have been sequenced
+
+- 2
+- 4
+- 6   vvvvvv
+- 3
+- 1
+- 5
+
+
+質問 20
+下面关于长非编码RNA（lncRNA）的说法，正确的是哪些
+Which of the following statements are correct with respect to long noncoding RNAs (lncRNAs)?
+
+- lncRNA有可变剪接 lncRNAs can have alternative splicing   1xxxxxx   2xxxxxx
+- lncRNA都没有polyA尾巴 All lncRNAs do not have polyA tails   1xxxxxx   3xxxxxx
+- lncRNA只能in cis地发挥功能 lncRNAs can only function in cis   1xxxxxx   2xxxxxx
+- lncRNA都没有功能 All lncRNAs have no function
+- lncRNA可以比某些编码RNA更长 lncRNAs can longer than some coding RNAs   2xxxxxx
+- lncRNA上没有外显子和读码框 There are no exons and open reading frames on lncRNAs   3xxxxxx
+
+
+質問 21
+关于非编码RNA的鉴定，下面说法错误的是
+Which of the following statements is NOT correct with respect to the identification of noncoding RNAs?
+
+- 可以鉴定出所有的非编码RNA We can identify all the ncRNAs correctly   1xxxxxx
+- LOG-ODD score分数越高，表明得到的ORF结果越可靠 The higher the LOG-ODD score is, the more reliable the ORF result would be   1xxxxxx   3xxxxxx
+- 可以利用序列碱基保守性信息鉴定非编码RNA We can use the information of sequence conservation to identify ncRNAs   1xxxxxx   3xxxxxx
+- 可以利用序列的二级结构信息来鉴定非编码RNA We can use the structure information of sequence to identify ncRNAs   2xxxxxx
+- 仅利用序列本身的特性无法实现非编码RNA的鉴定 It is impossible to identify ncRNAs using information from sequence only   2xxxxxx
+- 选择合适的特征组合可以提高鉴定的准确率 The accuracy of identification can be enhanced by choosing a proper set of features
+
+
+質問 22
+已知一次试验中出错的概率是0.2，而且每次试验都相互独立。则在3次试验中至少有2次出错的概率是多少？
+Assume that the probability that an error occurs in a trial is 0.2, and all trials are independent of each other. Then what is the probability that, in three trials, there are at least two of them that have an error occur? 
+
+- 0.096
+- 0.104   vvvvvv
+- 0.040
+- 0.148
+- 0.084
+- 0.006
+
+
+質問 23
+利用Bonferroni Correction使得对于比较50000个基因的实验，犯一类错误的概率低于0.05，则每个具有统计显著性的基因的p-value应小于
+We use Bonferroni Correction to set an upper bound of 0.05 for the value of the probability that the Type I error occurs in a trial where 50000 genes are compared. Then all the p-values of significant genes should be smaller than ____ 
+
+- 0.01   xxxxxx
+- 0.05   xxxxxx
+- 0.005   xxxxxx
+- 1.0e-6
+- 1.0e-10
+- 0.1
+
+
+質問 24
+'vitamin transporter activity' 属于GO分类的哪一类？
+Which of the following classes of GO does the "vitamin transporter acitivity" belong to?
+
+- Molecular Function   vvvvvv
+- Molecular Process
+- Cellular Component
+- Biological Process
+- Biological Component 
+- Cellular Function
+- Biological Regulation
+- Biological Function
+- Cellular Process
+- Molecular Regulation
+
+
+質問 25
+根据KEGG数据库，threonine dehydratase 在 Glycine, serine and threonine metabolism 代谢通路中发挥什么作用？
+According to KEGG database, what is the function of threonine dehydratase in glycine, serine and threonine metabolism
+http://www.genome.jp/kegg/
+
+- 催化Phosphoserine转变为Serine It catalyzes the reaction where Phosphoserine is turned into Serine   xxxxxx
+- 催化Phosphoserine转变为Glycine It catalyzes the reaction where Phosphoserine is turned into Glycine   xxxxxx
+- 催化Serine和Glycine相互转变 It catalyzes the reaction where Serine and Glycine are transformed into each other   xxxxxx
+- 催化Threonine和Glycine相互转变 It catalyzes the reaction where Threonine and Glycine are transformed into each other
+- 催化Serine和Pyruvate相互转变 It catalyzes the reaction where Serine and Pyruvate are transformed into each other
+
+
+質問 26
+假如某次实验分析得到下面这组基因list（Entrez Gene ID格式）
+Assume we get the gene list below in an analysis(in Entrez Gene ID format)
+
+498
+506
+509
+513
+514
+515
+516
+517
+518
+521
+522
+539
+4508
+4509
+9551
+10476
+10632
+27109
+
+请问KOBAS富集性分析（默认参数）得到的最显著富集的KEGG pathway是？
+Then what is the most enriched KEGG pathway given by KOBAS (with all parameters set to default)?
+KOBAS: http://kobas.cbi.pku.edu.cn/
+
+- Oxidative phosphrylation   vvvvvv
+- Autism spectrum disorder
+- Huntington's disease
+- Dravet syndrome
+- The citric acid (TCA) cycle and respiratory electron transport
+- Beta oxidation
+- Alzheimer's disease
+- Metabolic pathways
+- Carnitine shuttle
+- Option text
+
+
+質問 27
+对于上题中的基因list，KOBAS分析（默认参数）得到最显著富集的GO term是？
+For the gene list given in the previous question, what is the most enriched GO term given by KOBAS (with all parameters set to default)?
+
+- cation transmembrane transporter activity   xxxxxx
+- hydrogen transport   xxxxxx
+- organelle envelope   xxxxxx
+- photophosphorylation
+- ATP metabolic process
+- chemosynthesis
+- cellular respiration
+- proton-transporting ATP synthase complex
+- oxidative phosphorylation
+
+
+質問 28
+蛋白质结构域方面的信息可以从下列哪个中查到？
+From which one can one find information about protein motifs?
+
+- SOAP
+- DAMBE
+- IntAct
+- MEGA
+- KOBAS   xxxxxx
+- InterPro
+- BLAT   xxxxxx
+- PolyPhen-2   xxxxxx
+- SIFT
+
+
+質問 29
+你能从NCBI-PubMed数据库中查到什么信息？
+What information can you retrieve from NCBI-PubMed?
+
+- 物种分类层级关系 The hierarchy of taxonomy
+- 蛋白质结构 Protein structure
+- 基因注释信息 Gene annotation
+- 蛋白质序列 Protein sequence
+- 基因组序列 Genome sequence
+- 生命科学相关图书 Books about life sciences
+- NCBI 网站的培训视频和教学指导 Training videos and tutorials for NCBI
+- 基因型-表型 关联数据 Genotype-phenotype relationship data
+- 药物设计和靶点信息 Medicine design and target data
+- 生命科学和医学相关文献和相关资源链接 Biological and Medical literature and related URLs   vvvvvv
+
+
+質問 30
+UCSC提供了下列哪些有用的工具？
+Which of the following tools are provided by UCSC?
+
+- BLAST   1xxxxxx   3xxxxxx
+- BatchPrimer3   1xxxxxx
+- MEME Suite   1xxxxxx
+- ClinVar   1xxxxxx
+- MedGen   1xxxxxx
+- Sequence Read Archive (SRA)   1xxxxxx
+- ClustalW2   1xxxxxx
+- SIFT
+- PolyPhen-2
+- In-Silico PCR   2xxxxxx   3xxxxxx
+- Genome Browser   2xxxxxx   3xxxxxx
+- Blat   2xxxxxx   3xxxxxx
+
+
+質問 31
+GO的拓扑结构是？
+What is GO topology structure?
+
+- 无向有环图 Undirected Graph with loop
+- 双向星型结构 bi-directional star
+- 无向树 Undirected Tree
+- 层次树 Hierarchical Tree
+- 双环图 dual-ring graph
+- 总线结构 daisy-chain
+- 有向无环图 Directed Acyclic Graph   vvvvvv
+
+
+質問 32
+世界上第一个被发现的新基因是
+The first new gene discovered in the world is
+
+- BSC4 基因 BSC4 gene   xxxxxx
+- BC200 基因 BC200 gene   xxxxxx
+- “猴王” 基因 Monkey King gene (mkg)   xxxxxx
+- Sphinx 基因 Sphinx gene
+- XIST 基因 XIST gene
+- Hun 基因 Hun gene
+- Tre2 基因 Tre2 gene
+- Jingwei 基因 Jingwei gene
+- FGF4 基因 FGF4 gene
+- POXP2 基因 POXP2 gene
+
+
+質問 33
+下图所示的新基因起源机制是哪一种？
+What is the mechanism of new gene origination described by the figure below?
+
+- 外显子/结构域重排 exon/domain shuffling   vvvvvv
+- 基因重复 Gene duplication
+- 基因水平转移 Lateral gene transfer
+- 可移动元件 mobile element
+- 从头起源 De novo origination
+- 逆转录转座 Retrotransposition
+
+
+質問 34
+给定图中的物种系统发生关系和基因在各物种中是否存在，依据最简约原则如下哪一个推断是正确的？
+Assume that we know the phylogeny and the existence of some genes as shown below. Then which of the following statements is correct if we apply Occam's razor?
+
+- ABCD是一个在物种1和2分岐后起源的新基因 ABCD is a new gene originated after the divergence of Species 1 and 2   vvvvvv
+- IJKL在物种2，3，4，5中独立地起源了4次 IJKL originated four times independently in Species 2, 3, 4, and 5
+- MNOP是一个在物种5和物种1，2，3，4的祖先分岐后起源的新基因 MNOP is a new gene originated after the divergence of Species 5 and the ancester of Species 1, 2, 3, and 4
+- EFGH是一个在所有物种中都有的新基因 EFGH is a new gene that exists in all species
+
+
+質問 35
+如下哪个生物信息学方法可以用来寻找新基因？
+Which of the following bioinformatics methods can be used to find new genes?
+
+- SOAP
+- Blast   vvvvvv
+- BWA
+- KOBAS
+- SIFT
+
+
+質問 36
+如下哪个计算方法不能对一个之前未知的从头起源基因提供有用的信息？
+Which of the following methods cannot provide useful information for a de novo new gene about which we knew nothing before?
+
+- 蛋白二级结构预测 Prediction of protein secondary structure   xxxxxx
+- 蛋白理化性质（如pI值）预测 Prediction of the physical and chemical properties of proteins, such as the pI value   xxxxxx
+- 从RNA-Seq数据得到的mRNA表达特点 The characteristics of mRNA expression obtained from RNA-Seq data   xxxxxx
+- 基于已知功能基因的同源注释 Homologous annotation based on genes whose functions are known
+
+
+質問 37
+下列关于直系同源基因和旁系同源基因说法正确的是
+Which of the following statements is correct with respect to orthologs and paralogs?
+
+- 直系同源基因是由物种分化产生的 Orthologs are produced by speciation event   vvvvvv
+- 旁系同源基因是由基因复制产生的 Paralogs are  produced by gene duplication   vvvvvv
+- 旁系同源基因是由物种分化产生的 Paralogs are produced by speciation event
+- 直系同源基因是由基因复制产生的 Orthologs are produced by gene duplication
+
+
+質問 38
+如下哪些技术可以用来提供转录组数据
+Which of the following techniques can be used to obtain transcriptome data?
+
+- cDNA microarray   vvvvvv
+- RNA-seq   vvvvvv
+- SNP chip
+- Mass spectrometry
+
+
+質問 39
+如下哪个物种具有人基因SRGAP2C的直系同源DNA序列
+Which of the following species has orthologous DNA sequences for the human gene SRGAP2C?
+
+- 黑腹果蝇 Drosophila melanogaster
+- 斑马鱼 Brachydanio rerio
+- 大肠杆菌 Escherichia coli
+- 酿酒酵母 Saccharomyces cerevisiae
+- 小家鼠 Mus musculus
+- 北极熊 Ursus maritimus
+- 临夏鸵鸟 Struthio linxiaensis
+- 索氏桃花水母 Craspedacusta sowerby
+- 家猪 Sus scrofa domesticus
+- 黑猩猩 Pan troglodytes   vvvvvv
+
+
+質問 40
+我们今天知道的基因组上含有基因最多的物种是
+To the best of our knowledge, which of the following species has the most abundant genes?
+
+- 北极熊 Ursus maritimus   xxxxxx
+- 酿酒酵母 Saccharomyces cerevisiae   xxxxxx
+- 小家鼠 Mus musculus   xxxxxx
+- 大豆 Glycine max
+- 拟南芥 Arabidopsis thaliana
+- 番茄 Solanum lycopersicum
+- 大肠杆菌 Escherichia coli
+- 黑腹果蝇 Drosophila melanogaster
+- 智人 Homo sapiens
+
+
+
