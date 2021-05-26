@@ -323,7 +323,13 @@
 
 ---
 
+**Certificate:**
 
+![Coursera - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链)](https://raw.githubusercontent.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods/main/figure/Coursera%20-%20Bioinformatics%20-%20Hidden%20Markov%20Models%20(%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6%20-%20%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E9%93%BE).png)
+
+[Coursera Verified Certificate - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链)](https://www.coursera.org/account/accomplishments/certificate/ZS8ZVNU6LYL2)
+
+---
 
 <span style='color:RoyalBlue'>**<img src='figure/Peking University 02.png' width='24'> [北京大学️](https://www.pku.edu.cn) 智慧产权** </span>
 
