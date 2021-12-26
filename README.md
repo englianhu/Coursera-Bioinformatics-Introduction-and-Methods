@@ -11,32 +11,32 @@
 
 ## Content
 
-<p><p>
 1) Week 1 : Introduction and History of Bioinformatics
-    
-    a) What is Bioinformatics
+
+    - What is Bioinformatics
         
         - 動畫 : [What is Bioinformatics](https://www.youtube.com/watch?v=bHWG58UFHQM&t=2s)
         
-    b) History of Bioinformatics
+    - History of Bioinformatics
         
         - 動畫 : [History of Bioinformatics](https://www.youtube.com/watch?v=U44CO6USg1c&t=9s)
         
-    c) Overview of Bioinformatics in China and About This Course
+    - Overview of Bioinformatics in China and About This Course
         
         - 動畫 : [Bioinformatics in Mainland China](https://www.youtube.com/watch?v=UyvS8l1Fkq4&t=2s)
         - 動畫 : [About This Course](https://www.youtube.com/watch?v=7o-yReHU72g)
         
-    d) Review
+    - Review
         
         - テスト : Introduction and History of Bioinformatics
         
-    e) Supplementary
+    - Supplementary
         
         - 學習用教材 : Reading
         - 學習用教材 : Slides
         
-<p><p>
+<br>
+
 2) Week 2 : Sequence Alignment
     
     a) Sequence Alignment, Part I
@@ -64,7 +64,8 @@
         
         - テスト : Sequence Alignment
         
-<p><p>
+<br>
+
 3) Week 3 : Sequence Database Search
     
     a) Sequence Database Search
@@ -85,7 +86,8 @@
         - 学習用教材 : Readings
         - 学習用教材 : Slides
         
-<p><p>
+<br>
+
 4) Week 4 : Markov Model
     
     a) Markov Model
@@ -107,7 +109,8 @@
         - 学習用教材 : Readings
         - 学習用教材 : Slides
 
-<p><p>
+<br>
+
 5) Week 5 : Next Generation Sequencing (NGS): Mapping of Reads From Resequencing and Calling of Genetic Variants
     
     a) Next Generation Sequencing (NGS)
@@ -136,7 +139,8 @@
         - 学習用教材 : Readings
         - 学習用教材 : Slides
         
-<p><p>
+<br>
+
 6) Week 6 : Functional Prediction of Genetic Variants
     
     a) Variant Databases
