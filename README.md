@@ -1,5 +1,5 @@
 
-<img src='figure/Peking University 02.png' width='100'> <img src='figure/coursera.jpg' width='100'>
+<img src='figure/Peking University 02.png' height='100'> <img src='figure/coursera.jpg' height='100'>
 
 # <span style='color:RoyalBlue'>Coursera Bioinformatics Introduction and Methods</span>
 
