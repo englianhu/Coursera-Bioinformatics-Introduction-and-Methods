@@ -1,11 +1,11 @@
 
-<img src='figure/Peking University 02.png' height='100'> <img src='figure/coursera.jpg' height='100'>
+<img src='文艺坊图库/coursera.jpg' height='100'> <img src='文艺坊图库/Peking University 02.png' height='100'>
 
 # <span style='color:RoyalBlue'>Coursera Bioinformatics Introduction and Methods</span>
 
 **Bioinformatics : Introduction and Methods 生物信息学: 导论与方法** - *Peking University*
 
-<img src='figure/Peking University 01.jpeg' width='300'>
+<img src='文艺坊图库/Peking University 01.jpeg' width='300'>
 
 <audio src="2019年北京欢迎你 chorus (DJ舞曲).mp3" controls></audio>
 
@@ -337,12 +337,12 @@
 
 **Certificate:**
 
-![](https://raw.githubusercontent.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods/main/figure/Coursera%20-%20Bioinformatics%20-%20Hidden%20Markov%20Models%20(%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6%20-%20%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E9%93%BE).png)
+![](https://raw.githubusercontent.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods/main/文艺坊图库/Coursera%20-%20Bioinformatics%20-%20Hidden%20Markov%20Models%20(%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6%20-%20%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E9%93%BE).png)
 [Coursera - Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链).pdf](https://raw.githubusercontent.com/englianhu/Coursera-Bioinformatics-Introduction-and-Methods/f65d80cc6d33859ca006983de4c18b95d10d87d0/Coursera%20-%20Bioinformatics%20-%20Hidden%20Markov%20Models%20(%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6%20-%20%E9%9A%90%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E9%93%BE).pdf)
 
 Coursera Verified Certificate : [Bioinformatics - Hidden Markov Models (生物信息学 - 隐马尔科夫链)](https://www.coursera.org/account/accomplishments/certificate/ZS8ZVNU6LYL2)
 
 ---
 
-<span style='color:RoyalBlue'>**<img src='figure/Peking University 02.png' width='24'> [北京大学️](https://www.pku.edu.cn) 智慧产权** </span>
+<span style='color:RoyalBlue'>**<img src='文艺坊图库/Peking University 02.png' width='24'> [北京大学️](https://www.pku.edu.cn) 智慧产权** </span>
 
