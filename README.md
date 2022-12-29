@@ -344,5 +344,5 @@ Coursera Verified Certificate : [Bioinformatics - Hidden Markov Models (生物�
 
 ---
 
-<span style='color:RoyalBlue'>**<img src='文艺坊图库/Peking University 02.png' width='24'> [北京大学️](https://www.pku.edu.cn) 智慧产权** </span>
+<span style='color:RoyalBlue'>**<img src='文艺坊图库/Peking University 02.png' width='24'> [北京大学️](https://www.pku.edu.cn) 知识产权，盗版必究** </span>
 
