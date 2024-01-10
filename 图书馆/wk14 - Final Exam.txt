@@ -36,7 +36,7 @@ BAM格式中不包括的信息有哪些
 Which of the following information is NOT included in BAM format?
 
 - 实验者的名字 The name of the researcher   vvvvvv
-- 读段比对的染色体名字 The name of the chromosome of the read alignment
+- 读段比对的染色体名字 The name of the chromosome of the read alignment xxxxx
 - 读段的比对结果 The alignment result for reads
 - 读段比对程序的名字 The name of the read mapper program
 - 读段的质量 The quality of the read   xxxxxx
@@ -72,10 +72,10 @@ Which of the following sequencers is not high-throughput?
 - Illumina HiSeq测序仪 Illumina HiSeq sequencer   xxxxxx
 - Illumina MiSeq测序仪 Illumina MiSeq sequencer   xxxxxx
 - Ion Torrent proton 半导体测序仪 Ion Torrent proton semiconductor sequencer   xxxxxx
-- Illumina Nextseq 500 测序仪 Illumina Nextseq 500 sequencer
-- Illumina X10 测序仪 Illumina X10 sequencer
+- Illumina Nextseq 500 测序仪 Illumina Nextseq 500 sequencer xxxxxx
+- Illumina X10 测序仪 Illumina X10 sequencer xxxxxxxxxxxxxxxxxx
 - ABI SOLiD 测序仪 ABI SOLiD sequencer   xxxxxx
-- ABI 3500 测序仪 ABI 3500 sequencer
+- ABI 3500 测序仪 ABI 3500 sequencer vvvvvvvv
 - ABI 3730 测序仪 ABI 3730 sequencer
 
 
@@ -165,7 +165,7 @@ When doing sequence alignment to the same sequence, how many times is the theore
 - 6   xxxxxx
 - 3   xxxxxx
 - 12   xxxxxx
-- 2
+- 2  xxxxx
 - 1/2
 - 1/5
 - 5
@@ -173,7 +173,7 @@ When doing sequence alignment to the same sequence, how many times is the theore
 - 36
 - 1/24
 - 24
-- 4
+- 4  vvvvvvvvvvvvv
 
 
 質問 12
@@ -546,7 +546,7 @@ Which of the following species has orthologous DNA sequences for the human gene 
 - 斑马鱼 Brachydanio rerio
 - 大肠杆菌 Escherichia coli
 - 酿酒酵母 Saccharomyces cerevisiae
-- 小家鼠 Mus musculus
+- 小家鼠 Mus musculus vvvvvvvvvv
 - 北极熊 Ursus maritimus
 - 临夏鸵鸟 Struthio linxiaensis
 - 索氏桃花水母 Craspedacusta sowerby
@@ -567,6 +567,3 @@ To the best of our knowledge, which of the following species has the most abunda
 - 大肠杆菌 Escherichia coli
 - 黑腹果蝇 Drosophila melanogaster
 - 智人 Homo sapiens
-
-
-
